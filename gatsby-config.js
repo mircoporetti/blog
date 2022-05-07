@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/blog",
+  pathPrefix: "/my-blog",
   flags: {
     PARALLEL_QUERY_RUNNING: true
   },
