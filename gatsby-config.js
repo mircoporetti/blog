@@ -1,5 +1,8 @@
 module.exports = {
   pathPrefix: "/blog",
+  flags: {
+    PARALLEL_QUERY_RUNNING: true
+  },
   siteMetadata: {
     title: `Gatsby Starter Blog`,
     author: {
