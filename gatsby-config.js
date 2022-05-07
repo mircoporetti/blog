@@ -1,18 +1,18 @@
 module.exports = {
-  pathPrefix: "/my-blog",
+  pathPrefix: "/blog",
   flags: {
     PARALLEL_QUERY_RUNNING: true
   },
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `A Box for Random Techie Thoughts`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Mirco Poretti`,
+      summary: `a huge fan of (almost) everything about Software.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A Box for Random Techie Thoughts by MP`,
+    siteUrl: `https://mircoporetti.me/blog/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `mirco_poretti`,
     },
   },
   plugins: [
