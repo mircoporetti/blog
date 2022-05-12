@@ -6,6 +6,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 import {DiscussionEmbed} from "disqus-react"
+import {useState} from "react";
+import { Cookies } from "react-cookie-consent";
 
 const BlogPostTemplate = ({data, location}) => {
     const post = data.markdownRemark
@@ -16,6 +18,9 @@ const BlogPostTemplate = ({data, location}) => {
         shortname: "mircoporetti",
         config: {identifier: postTitle},
     }
+
+    const [cookiesAccepted] = useState(Cookies.get("mirco_poretti_blog"));
+
     return (
         <Layout location={location} title={siteTitle}>
             <Seo
@@ -66,7 +71,10 @@ const BlogPostTemplate = ({data, location}) => {
                     </li>
                 </ul>
             </nav>
+            {cookiesAccepted ?
             <DiscussionEmbed {...disqusConfig} />
+                : <div>You need to allow cookies to view comments</div>
+            }
         </Layout>
     )
 }
