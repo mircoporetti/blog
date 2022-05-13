@@ -19,6 +19,7 @@ const BlogPostTemplate = ({data, location}) => {
     const disqusConfig = {
         shortname: "mircoporetti",
         config: {identifier: postTitle},
+        pageUrl: window.location.href
     }
 
     const {consent} = useContext(CookieContext)
