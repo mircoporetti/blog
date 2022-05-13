@@ -75,7 +75,7 @@ const BlogPostTemplate = ({data, location}) => {
             </nav>
             {consent ?
             <DiscussionEmbed {...disqusConfig} />
-                : <div style={{padding: "2%",backgroundColor: "lightgrey"}}><FaComments/> Hey! You need to allow cookies to view comments for this post! <FaComments/></div>
+                : <div style={{backgroundColor: "lightgrey"}}><FaComments/> Hey! You need to allow cookies to view comments for this post! <FaComments/></div>
             }
         </Layout>
     )
