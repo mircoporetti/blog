@@ -39,11 +39,19 @@ const Layout = ({location, title, children}) => {
                     buttonText="Sure man!!"
                     cookieName="mirco_poretti_blog"
                     style={{background: "#134f5c"}}
-                    buttonStyle={{color: "#4e503b", background: "#FFFFFF", fontSize: "14px", borderRadius: "7%"}}
+                    buttonStyle={{color: "#4e503b", background: "#FFFFFF", fontSize: "90%", borderRadius: "7%"}}
+                    enableDeclineButton={true}
+                    declineButtonText={"Decline"}
+                    declineButtonStyle={{background: "#134f5c", fontSize: "90%"}}
                     expires={150}
                     onAccept={
                         () => {
                             setConsent(true)
+                        }
+                    }
+                    onDecline={
+                        () => {
+                            setConsent(false)
                         }
                     }
                 >
