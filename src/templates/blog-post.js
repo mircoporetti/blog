@@ -10,16 +10,18 @@ import {DiscussionEmbed} from "disqus-react"
 import {CookieContext} from "../utils/cookie-context";
 import {useContext} from "react";
 import {FaComments} from "react-icons/all";
+import { useLocation } from '@reach/router';
 
 const BlogPostTemplate = ({data, location}) => {
     const post = data.markdownRemark
     const siteTitle = data.site.siteMetadata?.title || `Title`
     const {previous, next} = data
     const postTitle = post.frontmatter.title
+    const currentPage = useLocation()
     const disqusConfig = {
         shortname: "mircoporetti",
         config: {identifier: postTitle},
-        pageUrl: window.location.href
+        pageUrl: currentPage.href
     }
 
     const {consent} = useContext(CookieContext)
