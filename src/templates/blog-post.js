@@ -9,6 +9,7 @@ import {DiscussionEmbed} from "disqus-react"
 
 import {CookieContext} from "../utils/cookie-context";
 import {useContext} from "react";
+import {FaComments} from "react-icons/all";
 
 const BlogPostTemplate = ({data, location}) => {
     const post = data.markdownRemark
@@ -74,7 +75,7 @@ const BlogPostTemplate = ({data, location}) => {
             </nav>
             {consent ?
             <DiscussionEmbed {...disqusConfig} />
-                : <div>You need to allow cookies to view comments</div>
+                : <div style={{padding: "2%",backgroundColor: "lightgrey"}}><FaComments/> Hey! You need to allow cookies to view comments for this post! <FaComments/></div>
             }
         </Layout>
     )
