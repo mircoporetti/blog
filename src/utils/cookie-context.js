@@ -9,7 +9,7 @@ const Provider = props => {
     return (
         <CookieContext.Provider value={{
             consent,
-            setConsent: () => setConsent(!consent)
+            setConsent: (value) => setConsent(value)
         }}>
             {props.children}
         </CookieContext.Provider>
