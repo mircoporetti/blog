@@ -75,10 +75,10 @@ const BlogPostTemplate = ({data, location}) => {
                     </li>
                 </ul>
             </nav>
-            {/*{consent ?*/}
+            {consent ?
             <DiscussionEmbed {...disqusConfig} />
-           {/*     : <div style={{backgroundColor: "lightgrey"}}><FaComments/> Hey! You need to allow cookies to view comments for this post! <FaComments/></div>
-            }*/}
+                : <div style={{backgroundColor: "lightgrey"}}><FaComments/> Hey! You need to allow cookies to view comments for this post! <FaComments/></div>
+            }
         </Layout>
     )
 }
