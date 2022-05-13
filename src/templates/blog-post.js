@@ -8,7 +8,7 @@ import Seo from "../components/seo"
 import {DiscussionEmbed} from "disqus-react"
 
 import {CookieContext} from "../utils/cookie-context";
-import {useContext, useEffect, useState} from "react";
+import {useContext} from "react";
 import {FaComments} from "react-icons/all";
 import { useLocation } from '@reach/router';
 
@@ -25,11 +25,14 @@ const BlogPostTemplate = ({data, location}) => {
 
     const {consent} = useContext(CookieContext)
 
-    const [isClient, setClient] = useState(false);
-
-    useEffect(() => {
-        setClient(true);
+    //Rehydration issue management
+    const [hasMounted, setHasMounted] = React.useState(false);
+    React.useEffect(() => {
+        setHasMounted(true);
     }, []);
+    if (!hasMounted) {
+        return null;
+    }
 
     return (
         <Layout location={location} title={siteTitle}>
