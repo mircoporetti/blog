@@ -7,7 +7,7 @@ const Layout = ({location, title, children}) => {
     const rootPath = `${__PATH_PREFIX__}/`
     const isRootPath = location.pathname === rootPath
 
-    const {consent, setConsent} = React.useContext(CookieContext)
+    const {setConsent} = React.useContext(CookieContext)
 
     let header
 
@@ -43,7 +43,6 @@ const Layout = ({location, title, children}) => {
                     expires={150}
                     onAccept={
                         () => {
-                            console.log(consent)
                             setConsent(true)
                         }
                     }
