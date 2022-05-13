@@ -8,7 +8,7 @@ import Seo from "../components/seo"
 import {DiscussionEmbed} from "disqus-react"
 
 import {CookieContext} from "../utils/cookie-context";
-import {useContext} from "react";
+import {useContext, useEffect} from "react";
 import {FaComments} from "react-icons/all";
 import { useLocation } from '@reach/router';
 
@@ -24,6 +24,13 @@ const BlogPostTemplate = ({data, location}) => {
     }
 
     const {consent} = useContext(CookieContext)
+
+    const [, updateState] = React.useState();
+    const forceUpdate = React.useCallback(() => updateState({}), []);
+
+    useEffect(() => {
+        forceUpdate();
+    }, [consent])
 
     return (
         <Layout location={location} title={siteTitle}>
