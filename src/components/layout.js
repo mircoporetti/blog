@@ -38,8 +38,8 @@ const Layout = ({location, title, children}) => {
                     location="bottom"
                     buttonText="Sure man!!"
                     cookieName="mirco_poretti_blog"
-                    style={{background: "#2B373B"}}
-                    buttonStyle={{color: "#4e503b", fontSize: "13px"}}
+                    style={{background: "#134f5c"}}
+                    buttonStyle={{color: "#4e503b", background: "#FFFFFF", fontSize: "14px", borderRadius: "7%"}}
                     expires={150}
                     onAccept={
                         () => {
@@ -48,8 +48,7 @@ const Layout = ({location, title, children}) => {
                         }
                     }
                 >
-                    This website uses cookies to enhance the user experience.{" "}
-                    <span style={{fontSize: "10px"}}>This bit of text is smaller :O</span>
+                    This website uses cookies to improve the user experience and to allow you to write and read post's comments.{" "}
                 </CookieConsent>
             </div>
     )
