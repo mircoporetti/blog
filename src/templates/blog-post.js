@@ -8,7 +8,7 @@ import Seo from "../components/seo"
 import {DiscussionEmbed} from "disqus-react"
 
 import {CookieContext} from "../utils/cookie-context";
-import {useContext} from "react";
+import {useContext, useEffect, useState} from "react";
 import {FaComments} from "react-icons/all";
 import { useLocation } from '@reach/router';
 
@@ -24,6 +24,12 @@ const BlogPostTemplate = ({data, location}) => {
     }
 
     const {consent} = useContext(CookieContext)
+
+    const [isClient, setClient] = useState(false);
+
+    useEffect(() => {
+        setClient(true);
+    }, []);
 
     return (
         <Layout location={location} title={siteTitle}>
