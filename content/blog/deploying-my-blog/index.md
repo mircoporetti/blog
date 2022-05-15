@@ -1,7 +1,7 @@
 ---
 title: Deploying my blog using Gatsby and Github Pages
 date: "2022-05-15T22:12:03.284Z"
-description: "Why and How I built my first blog with Gatsby and I deployed it on Github Pages"
+description: "Why and How I built my first blog with Gatsby and deployed it on Github Pages"
 ---
 
 ## Why and how
