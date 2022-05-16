@@ -10,17 +10,21 @@ import {DiscussionEmbed} from "disqus-react"
 import {CookieContext} from "../utils/cookie-context";
 import {useContext} from "react";
 import {FaComments} from "react-icons/all";
-import { useLocation } from '@reach/router';
+import {useLocation} from '@reach/router';
 
 const BlogPostTemplate = ({data, location}) => {
     const post = data.markdownRemark
     const siteTitle = data.site.siteMetadata?.title || `Title`
     const {previous, next} = data
-    const postTitle = post.frontmatter.title
     const currentPage = useLocation()
+
     const disqusConfig = {
         shortname: "mircoporetti",
-        config: {identifier: postTitle, url: currentPage.href},
+        config: {
+            url: currentPage.href,
+            identifier: post.id,
+            title: post.frontmatter.title
+        },
     }
 
     const {consent} = useContext(CookieContext)
@@ -85,8 +89,10 @@ const BlogPostTemplate = ({data, location}) => {
                 </ul>
             </nav>
             {consent ?
-            <DiscussionEmbed {...disqusConfig} />
-                : <div style={{backgroundColor: "lightgrey", padding: "3%"}}><FaComments/> Hey! You need to allow cookies to view comments for this post! <FaComments/></div>
+                <DiscussionEmbed {...disqusConfig} />
+                :
+                <div style={{backgroundColor: "lightgrey", padding: "3%"}}><FaComments/> Hey! You need to allow cookies
+                    to view comments for this post! <FaComments/></div>
             }
         </Layout>
     )
