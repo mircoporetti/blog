@@ -4,12 +4,12 @@ module.exports = {
     PARALLEL_QUERY_RUNNING: true
   },
   siteMetadata: {
-    title: `A Box for Random Techie Thoughts`,
+    title: `Techie Thoughts`,
     author: {
       name: `Mirco Poretti`,
       summary: `a huge fan of (almost) everything about Software.`,
     },
-    description: `A Box for Random Techie Thoughts by MP`,
+    description: `Techie Thoughts by MP`,
     siteUrl: `https://mircoporetti.me/blog/`,
     social: {
       twitter: `mirco_poretti`,
@@ -117,7 +117,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `A Box for Random Techie Thoughts`,
+        name: `Techie Thoughts`,
         short_name: `Mirco Poretti Blog`,
         start_url: `/`,
         background_color: `#ffffff`,
