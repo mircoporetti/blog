@@ -78,7 +78,7 @@ because if the design is poor the tests will be difficult to write(and vice vers
 moment to refactor!
 That's super cool but pay attention: if you don't do it from that moment you become an accomplice. ;)
 
-#### Outside vs Inside out
+#### Outside in vs Inside out
 There is an endless debate on starting from the outside or the inside when you start your TDD cycle.
 
 Kent Beck wrote something like this: "Choose a test that teaches you something valuable and that you can write".
