@@ -107,9 +107,10 @@ interactions with the infrastructure.
 
 ## Final thoughts
 
-TDD helps you in building a simpler design and more maintainable code. Please note: it helps a lot, but it's not magic!
-In the end, YOU are responsible for good or bad design. This approach gives you a good push towards the right path,
-but of course, you need some design knowledge especially for refactoring to achieve a Simple Design.
+TDD helps you in building a simpler design and more maintainable code. It doesn't mean that being driven by the tests carries
+you to a specific design.
+In the end, YOU are responsible for a better design but this approach gives you a natural push towards the right path and what will
+emerge at the end will be for sure something better, cleaner, SOLID, and so on :)
 
 Even if you won't use TDD as your “go-to” approach, having some experience with it will help you in making better design
 decisions when you have to do that in your daily work. It will help you in recognizing smells and it will change your way
