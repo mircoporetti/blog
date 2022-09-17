@@ -78,8 +78,6 @@ because if the design is poor the tests will be difficult to write(and vice vers
 moment to refactor!
 That's super cool but pay attention: if you don't do it from that moment you become an accomplice. ;)
 
-//TODO esempio refactoring layers e test pieni di mocks
-
 #### Outside vs Inside out
 There is an endless debate on starting from the outside or the inside when you start your TDD cycle.
 
@@ -108,8 +106,6 @@ I often mock boundaries if needed, mainly when I'm specifically testing the doma
 interactions with the infrastructure.
 
 ## Final thoughts
-
-//TODO: Aggiungere qualcosa di mio legato agli esempi precedenti
 
 TDD helps you in building a simpler design and more maintainable code. Please note: it helps a lot, but it's not magic!
 In the end, YOU are responsible for good or bad design. This approach gives you a good push towards the right path,
