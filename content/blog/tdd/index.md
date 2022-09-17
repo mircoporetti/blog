@@ -112,7 +112,7 @@ you to a specific design.
 In the end, YOU are responsible for a better design but this approach gives you a natural push towards the right path and what will
 emerge at the end will be for sure something better, cleaner, SOLID, and so on :)
 
-Even if you won't use TDD as your “go-to” approach, having some experience with it will help you in making better design
+Even if you won't use TDD as your “go-to” approach, having some experience with it will help you in making better
 decisions when you have to do that in your daily work. It will help you in recognizing smells and it will change your way
 of dealing with a problem during development.
 
