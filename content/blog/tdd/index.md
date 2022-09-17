@@ -80,7 +80,7 @@ That lack of separation of responsibility resulted in tests that were long and f
 REFACTOR!
 
 TDD is a tool that gives us feedback on the quality of the design.
-The example above was not directly related to but having some experience with this approach can change your way of thinking
+The example above was not directly related to it but having some experience with this approach can change your way of thinking
 and it can be exploited for recognizing smells when you need to write tests on an existing codebase because if the design
 is poor the tests will be difficult to write (and vice versa). If that happens it will be the right moment to refactor!
 That's super cool but pay attention: if you don't do it from that moment you become an accomplice. ;)
