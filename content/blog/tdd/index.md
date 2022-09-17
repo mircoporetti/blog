@@ -72,24 +72,18 @@ and that helped a lot!
 
 ###### Feedback
 
+Dealing with legacy code is common. It happened sometimes that I wanted to write tests for it and while doing that
+there was some difficulty due to the existing design of the code. That's usually a hint that something has to be changed.
+An example of a recurrent scenario in my experience is when I met a poor separation between the infrastructure (e.g. persistence)
+and the domain that was evidenced by an impossibility in writing simple, clear, and "not frustrating" tests.
+That lack of separation of responsibility resulted in tests that were long and full of mocks. So what was it telling me?
+REFACTOR!
+
 TDD is a tool that gives us feedback on the quality of the design.
-In the real life, it can be exploited for recognizing smells when you need to write tests on an existing codebase
-because if the design is poor the tests will be difficult to write(and vice versa). If that happens it will be the right
-moment to refactor!
+The example above was not directly related to but having some experience with this approach can change your way of thinking
+and it can be exploited for recognizing smells when you need to write tests on an existing codebase because if the design
+is poor the tests will be difficult to write (and vice versa). If that happens it will be the right moment to refactor!
 That's super cool but pay attention: if you don't do it from that moment you become an accomplice. ;)
-
-#### Outside in vs Inside out
-There is an endless debate on starting from the outside or the inside when you start your TDD cycle.
-
-Kent Beck wrote something like this: "Choose a test that teaches you something valuable and that you can write".
-A good idea could be to start from the most obscure and valuable part of the problem because it's probably the one
-that will have more value for solving your problem.
-That’s not a fixed rule but a general suggestion and the right approach can be chosen depending on the situation.
-
-"...yes yes but what about you in practice?"
-
-I usually go Outside In, and then I jump into more detailed tests based on the complexity of the problem but
-it happens that I start from inside if I recognize that there is a clear aspect of the problem that is more complex.
 
 #### Mocks
 Mocks are a powerful tool used for controlling the behavior of a component inside your test. They are helpful in some
@@ -104,6 +98,19 @@ think about the reasons I recognize mainly 2 scenarios:
 
 I often mock boundaries if needed, mainly when I'm specifically testing the domain of the problem which requires
 interactions with the infrastructure.
+
+#### Outside in vs Inside out
+There is an endless debate on starting from the outside or the inside when you start your TDD cycle.
+
+Kent Beck wrote something like this: "Choose a test that teaches you something valuable and that you can write".
+A good idea could be to start from the most obscure and valuable part of the problem because it's probably the one
+that will have more value for solving your problem.
+That’s not a fixed rule but a general suggestion and the right approach can be chosen depending on the situation.
+
+"...yes yes but what about you in practice?"
+
+I usually go Outside In, and then I jump into more detailed tests based on the complexity of the problem but
+it happens that I start from inside if I recognize that there is a clear aspect of the problem that is more complex.
 
 ## Final thoughts
 
