@@ -19,14 +19,7 @@ Every iteration could be described as follows:
 - GREEN: Create the minimum code to make it pass
 - REFACTOR: Remove duplication and improve your code without changing its behavior
 
-#### When code is considered simple?
-
-- All tests green
-- Express intent
-- No duplication
-- With the minimum number of elements.
-
-#### ...and how tests should be?
+#### How tests should be?
 Some popular characters (one for all Kent Beck, author of TDD by Example) expressed some rules about how tests should be:
 
 - Express intent
@@ -63,6 +56,20 @@ It takes me on the right track to build a simpler design, write more maintainabl
 and useful tests that match the business requirements without necessarily being interested in how each single component
 is built internally.
 
+About this point, just comes to my mind a task that we did on a project.
+We noticed an improper use of domain objects. They were used simply as data containers and the critical domain
+logic was implemented into many services that used those data, forgetting about object-oriented essence.
+For getting rid of such anemic usage of objects we decided to refactor a bit and as a first step we wrote some tests for the
+existing use-cases, inferring the requirements from the existing code and focusing on the input and the output of the problem
+without caring about every internal class.
+In this way, the tests became our requirements, and they became our source of feedback for a safe refactoring of the domain logic.
+They were also useful for the new design of the code that, of course, can change based on personal experience and knowledge,
+but we were sure that in any case, it couldn't be that bad! :)
+
+What does TDD have to do with it?
+We did it as we would do it without having an existing code. We did it as we would do it with a Test Driven approach,
+and that helped a lot!
+
 ###### Feedback
 
 TDD is a tool that gives us feedback on the quality of the design.
@@ -70,6 +77,8 @@ In the real life, it can be exploited for recognizing smells when you need to wr
 because if the design is poor the tests will be difficult to write(and vice versa). If that happens it will be the right
 moment to refactor!
 That's super cool but pay attention: if you don't do it from that moment you become an accomplice. ;)
+
+//TODO esempio refactoring layers e test pieni di mocks
 
 #### Outside vs Inside out
 There is an endless debate on starting from the outside or the inside when you start your TDD cycle.
@@ -99,6 +108,8 @@ I often mock boundaries if needed, mainly when I'm specifically testing the doma
 interactions with the infrastructure.
 
 ## Final thoughts
+
+//TODO: Aggiungere qualcosa di mio legato agli esempi precedenti
 
 TDD helps you in building a simpler design and more maintainable code. Please note: it helps a lot, but it's not magic!
 In the end, YOU are responsible for good or bad design. This approach gives you a good push towards the right path,
