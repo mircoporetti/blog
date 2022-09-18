@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Techie Thoughts by MP]]></description><link>https://mircoporetti.me/blog</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 18 Sep 2022 21:31:06 GMT</lastBuildDate><item><title><![CDATA[TDD Who?]]></title><description><![CDATA[Test Driven Development TDD is an approach for driving development by testing with the goal of a clean and simple design. While practicing…]]></description><link>https://mircoporetti.me/blog/tdd/</link><guid isPermaLink="false">https://mircoporetti.me/blog/tdd/</guid><pubDate>Sun, 18 Sep 2022 23:01:12 GMT</pubDate><content:encoded>&lt;h2&gt;Test Driven Development&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Techie Thoughts by MP]]></description><link>https://mircoporetti.me/blog</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 18 Sep 2022 21:45:18 GMT</lastBuildDate><item><title><![CDATA[TDD Who?]]></title><description><![CDATA[Test Driven Development TDD is an approach for driving development by testing with the goal of a clean and simple design. While practicing…]]></description><link>https://mircoporetti.me/blog/tdd/</link><guid isPermaLink="false">https://mircoporetti.me/blog/tdd/</guid><pubDate>Sun, 18 Sep 2022 23:01:12 GMT</pubDate><content:encoded>&lt;h2&gt;Test Driven Development&lt;/h2&gt;
 &lt;p&gt;TDD is an approach for driving development by testing with the goal of a clean and simple design. While practicing TDD
 the focus is on the requirements. It’s about development and design, not simply testing or coverage.&lt;/p&gt;
 &lt;p&gt;That’s a crucial point that in my opinion makes Test Driven Development   different and more valuable than generic
@@ -10,6 +10,51 @@ based on needs not on already thought solutions.&lt;/p&gt;
 &lt;li&gt;GREEN: Create the minimum code to make it pass&lt;/li&gt;
 &lt;li&gt;REFACTOR: Remove duplication and improve your code without changing its behavior&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 2996px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/bcbc0fcce373656d41498674245d8fd8/db731/tdd.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAEDBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAB2oLLmmMof//EABkQAAMBAQEAAAAAAAAAAAAAAAECEQASEP/aAAgBAQABBQJmmU8YGjhbPP/EABYRAAMAAAAAAAAAAAAAAAAAABARIf/aAAgBAwEBPwFwf//EABYRAQEBAAAAAAAAAAAAAAAAABEBEP/aAAgBAgEBPwGrn//EABsQAAIBBQAAAAAAAAAAAAAAAAARARASITFR/9oACAEBAAY/Atod8y+jgazX/8QAGRABAQEBAQEAAAAAAAAAAAAAAREAITFB/9oACAEBAAE/IbYkYJRfGBYpuiNfZg9wQhv/2gAMAwEAAgADAAAAEEQP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QBH//xAAWEQEBAQAAAAAAAAAAAAAAAAABADH/2gAIAQIBAT8QGDF//8QAGhABAAMBAQEAAAAAAAAAAAAAAQARIUExUf/aAAgBAQABPxA8Fm1S4AN5bRX3PIcEviRXYltFsGaUecIBAAcJ/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/blog/static/bcbc0fcce373656d41498674245d8fd8/74e35/tdd.webp 1250w,
+/blog/static/bcbc0fcce373656d41498674245d8fd8/f3963/tdd.webp 2500w,
+/blog/static/bcbc0fcce373656d41498674245d8fd8/7df69/tdd.webp 2996w&quot;
+              sizes=&quot;(max-width: 2996px) 100vw, 2996px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/blog/static/bcbc0fcce373656d41498674245d8fd8/597e0/tdd.jpg 1250w,
+/blog/static/bcbc0fcce373656d41498674245d8fd8/0399a/tdd.jpg 2500w,
+/blog/static/bcbc0fcce373656d41498674245d8fd8/db731/tdd.jpg 2996w&quot;
+            sizes=&quot;(max-width: 2996px) 100vw, 2996px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/blog/static/bcbc0fcce373656d41498674245d8fd8/db731/tdd.jpg&quot;
+            alt=&quot;Figure 1&quot;
+            title=&quot;TDD cycle&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;TDD cycle&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
 &lt;h4&gt;How tests should be?&lt;/h4&gt;
 &lt;p&gt;Some popular characters (one for all Kent Beck, author of TDD by Example) expressed some rules about how tests should be:&lt;/p&gt;
 &lt;ul&gt;
@@ -56,6 +101,51 @@ An example of a recurrent scenario in my experience is when I met a poor separat
 and the domain that was evidenced by an impossibility in writing simple, clear, and “not frustrating” tests.
 That lack of separation of responsibility resulted in tests that were long and full of mocks. So what was it telling me?&lt;/p&gt;
 &lt;p&gt;REFACTOOOOR!&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 2996px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/dfdf2629b3aaf1117e27c0434598f920/db731/hammer.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAB2VPrFtJKj//EABkQAAMAAwAAAAAAAAAAAAAAAAABAhASMf/aAAgBAQABBQKrHdC45Ncf/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BCf/EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPwFXZ//EABgQAAIDAAAAAAAAAAAAAAAAAAACEiBB/9oACAEBAAY/AhY7X//EABkQAAMBAQEAAAAAAAAAAAAAAAABESExUf/aAAgBAQABPyGFx5o94NGJMCLdEl6xYf/aAAwDAQACAAMAAAAQlC//xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QANn/xAAWEQEBAQAAAAAAAAAAAAAAAAAAATH/2gAIAQIBAT8QiJj/xAAcEAEAAwACAwAAAAAAAAAAAAABABEhQVFhcdH/2gAIAQEAAT8QKswaOYOzdsNo7hAJTy2x+4arIocfr5BQCf/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/blog/static/dfdf2629b3aaf1117e27c0434598f920/74e35/hammer.webp 1250w,
+/blog/static/dfdf2629b3aaf1117e27c0434598f920/f3963/hammer.webp 2500w,
+/blog/static/dfdf2629b3aaf1117e27c0434598f920/7df69/hammer.webp 2996w&quot;
+              sizes=&quot;(max-width: 2996px) 100vw, 2996px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/blog/static/dfdf2629b3aaf1117e27c0434598f920/597e0/hammer.jpg 1250w,
+/blog/static/dfdf2629b3aaf1117e27c0434598f920/0399a/hammer.jpg 2500w,
+/blog/static/dfdf2629b3aaf1117e27c0434598f920/db731/hammer.jpg 2996w&quot;
+            sizes=&quot;(max-width: 2996px) 100vw, 2996px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/blog/static/dfdf2629b3aaf1117e27c0434598f920/db731/hammer.jpg&quot;
+            alt=&quot;Figure 2&quot;
+            title=&quot;Refactoring&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Refactoring&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;TDD is a tool that gives us feedback on the quality of the design.
 The example above was not directly related to it but having some experience with this approach can change your way of thinking
 and it can be exploited for recognizing smells when you need to write tests on an existing codebase because if the design
@@ -76,6 +166,51 @@ If you focus on requirements and not on classes when writing tests, likely you w
 interactions with the infrastructure.&lt;/p&gt;
 &lt;h4&gt;Outside in vs Inside out&lt;/h4&gt;
 &lt;p&gt;There is an endless debate on starting from the outside or the inside when you start your TDD cycle.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 2995px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/281736d9cfc447ccc28001acb166ffee/7d125/gladiators.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAHtNICLGf/EABkQAQADAQEAAAAAAAAAAAAAAAIAAREQEv/aAAgBAQABBQJLIlCqVZPPP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPwGlf//EABcQAQEBAQAAAAAAAAAAAAAAAAEAESD/2gAIAQEABj8CIbTj/8QAGRABAAMBAQAAAAAAAAAAAAAAAQARMUFh/9oACAEBAAE/IWdDXZQBnScnsStwHsCip//aAAwDAQACAAMAAAAQyB//xAAXEQEBAQEAAAAAAAAAAAAAAAARAAEh/9oACAEDAQE/EMBtHl//xAAWEQEBAQAAAAAAAAAAAAAAAAARARD/2gAIAQIBAT8QqGf/xAAYEAEAAwEAAAAAAAAAAAAAAAABABEhMf/aAAgBAQABPxA7xoUxGBrR2oLReSlTQEeYwZVoqqWAAKDk/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/blog/static/281736d9cfc447ccc28001acb166ffee/74e35/gladiators.webp 1250w,
+/blog/static/281736d9cfc447ccc28001acb166ffee/f3963/gladiators.webp 2500w,
+/blog/static/281736d9cfc447ccc28001acb166ffee/3dd1e/gladiators.webp 2995w&quot;
+              sizes=&quot;(max-width: 2995px) 100vw, 2995px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/blog/static/281736d9cfc447ccc28001acb166ffee/597e0/gladiators.jpg 1250w,
+/blog/static/281736d9cfc447ccc28001acb166ffee/0399a/gladiators.jpg 2500w,
+/blog/static/281736d9cfc447ccc28001acb166ffee/7d125/gladiators.jpg 2995w&quot;
+            sizes=&quot;(max-width: 2995px) 100vw, 2995px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/blog/static/281736d9cfc447ccc28001acb166ffee/7d125/gladiators.jpg&quot;
+            alt=&quot;Figure 3&quot;
+            title=&quot;Outside in vs Inside out&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Outside in vs Inside out&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Kent Beck wrote something like this: “Choose a test that teaches you something valuable and that you can write”.
 A good idea could be to start from the most obscure and valuable part of the problem because it’s probably the one
 that will have more value for solving your problem.
