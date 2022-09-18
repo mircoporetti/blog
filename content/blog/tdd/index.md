@@ -64,7 +64,7 @@ existing use-cases, inferring the requirements from the existing code and focusi
 without caring about every internal class.
 In this way, the first tests became our requirements, and they became our source of feedback for a safe refactoring of the domain logic.
 Proceeding with the refactoring we added other tests that were useful also for the new design of the code that, of course, can change based on personal experience and knowledge,
-but we were sure that in any case, it couldn't be that bad! :)
+but we were sure that in any case, it couldn't be that bad! :smile:
 
 What does TDD have to do with it?
 We did it as we would do it without having an existing code. We did it as we would do it with a Test Driven approach,
@@ -83,7 +83,7 @@ TDD is a tool that gives us feedback on the quality of the design.
 The example above was not directly related to it but having some experience with this approach can change your way of thinking
 and it can be exploited for recognizing smells when you need to write tests on an existing codebase because if the design
 is poor the tests will be difficult to write (and vice versa). If that happens it will be the right moment to refactor!
-That's super cool but pay attention: if you don't do it from that moment you become an accomplice. ;)
+That's super cool but pay attention: if you don't do it from that moment you become an accomplice. :wink:
 
 #### Mocks
 Mocks are a powerful tool used for controlling the behavior of a component inside your test. They are helpful in some
@@ -117,7 +117,7 @@ it happens that I start from inside if I recognize that there is a clear aspect 
 TDD helps you in building a simpler design and more maintainable code. It doesn't mean that being driven by the tests carries
 you to a specific design.
 In the end, YOU are responsible for a better design but this approach gives you a natural push towards the right path and what will
-emerge at the end will be for sure something better, cleaner, SOLID, and so on :)
+emerge at the end will be for sure something better, cleaner, SOLID, and so on :smile:
 
 Even if you won't use TDD as your “go-to” approach, having some experience with it will help you in making better
 decisions when you have to do that in your daily work. It will help you in recognizing smells and it will change your way
