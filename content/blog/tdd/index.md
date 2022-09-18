@@ -62,8 +62,8 @@ logic was implemented into many services that used those data, forgetting about 
 For getting rid of such anemic usage of objects we decided to refactor a bit and as a first step we wrote some tests for the
 existing use-cases, inferring the requirements from the existing code and focusing on the input and the output of the problem
 without caring about every internal class.
-In this way, the tests became our requirements, and they became our source of feedback for a safe refactoring of the domain logic.
-They were also useful for the new design of the code that, of course, can change based on personal experience and knowledge,
+In this way, the first tests became our requirements, and they became our source of feedback for a safe refactoring of the domain logic.
+Proceeding with the refactoring we added other tests that were useful also for the new design of the code that, of course, can change based on personal experience and knowledge,
 but we were sure that in any case, it couldn't be that bad! :)
 
 What does TDD have to do with it?
