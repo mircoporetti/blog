@@ -43,14 +43,14 @@ day I can still learn something about that.
 #### Why I like it
 
 Why do I like Test Driven Development?
-I could summarize with 3 keywords: Incremental, Simple, Feedback
+Here's some reason:
 
-###### Incremental
+###### Incremental and small iterations
 TDD lets the design emerge exploring a problem iteratively and incrementally. That's an important aspect that helps me
 in tackling the problems without overthinking the final solution especially when they are complex.
 Furthermore, it helps me focus on a single problem at a time.
 
-###### Simple
+###### Simplicity and focus on requirements
 
 It takes me on the right track to build a simpler design, write more maintainable code and more essential
 and useful tests that match the business requirements without necessarily being interested in how each single component
@@ -70,7 +70,7 @@ What does TDD have to do with it?
 We did it as we would do it without having an existing code. We did it as we would do it with a Test Driven approach,
 and that helped a lot!
 
-###### Feedback
+###### Different mindset
 
 Dealing with legacy code is common. It happened sometimes that I wanted to write tests for it and while doing that
 there was some difficulty due to the existing design of the code. That's usually a hint that something has to be changed.
