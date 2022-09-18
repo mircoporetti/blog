@@ -1,6 +1,6 @@
 ---
 title: TDD Who?
-date: "2022-09-18T15:16:12.284Z"
+date: "2022-09-18T23:01:12.284Z"
 description: "What's Test Driven Development and Why every developer should experience it?"
 ---
 
@@ -18,6 +18,8 @@ Every iteration could be described as follows:
 - RED: Write a test that fails
 - GREEN: Create the minimum code to make it pass
 - REFACTOR: Remove duplication and improve your code without changing its behavior
+
+![Figure 1](tdd.jpg "TDD cycle")
 
 #### How tests should be?
 Some popular characters (one for all Kent Beck, author of TDD by Example) expressed some rules about how tests should be:
@@ -62,7 +64,7 @@ logic was implemented into many services that used those data, forgetting about 
 For getting rid of such anemic usage of objects we decided to refactor a bit and as a first step, we wrote some tests for the
 existing use-cases, inferring the requirements from the existing code and focusing on the input and the output of the problem
 without caring about every internal class.
-In this way, the first tests became our requirements, and they became our source of feedback for a safe refactoring of the domain logic.
+In this way, the first tests became our requirements, and they were our source of feedback for a safe refactoring of the domain logic.
 Proceeding with the refactoring we added other tests that were useful also for the new design of the code that, of course, can change based on personal experience and knowledge,
 but we were sure that in any case, it couldn't be that bad! :smile:
 
@@ -77,7 +79,10 @@ there was some difficulty due to the existing design of the code. That's usually
 An example of a recurrent scenario in my experience is when I met a poor separation between the infrastructure (e.g. persistence)
 and the domain that was evidenced by an impossibility in writing simple, clear, and "not frustrating" tests.
 That lack of separation of responsibility resulted in tests that were long and full of mocks. So what was it telling me?
-REFACTOR!
+
+REFACTOOOOR!
+
+![Figure 2](hammer.jpg "Refactoring")
 
 TDD is a tool that gives us feedback on the quality of the design.
 The example above was not directly related to it but having some experience with this approach can change your way of thinking
@@ -101,6 +106,8 @@ interactions with the infrastructure.
 
 #### Outside in vs Inside out
 There is an endless debate on starting from the outside or the inside when you start your TDD cycle.
+
+![Figure 3](gladiators.jpg "Outside in vs Inside out")
 
 Kent Beck wrote something like this: "Choose a test that teaches you something valuable and that you can write".
 A good idea could be to start from the most obscure and valuable part of the problem because it's probably the one
@@ -128,3 +135,7 @@ of dealing with a problem during development.
 #### References:
 TDD by Example , XP Explained, [When to Mock](https://blog.cleancoder.com/uncle-bob/2014/05/10/WhenToMock.html),
 [TDD Harms Architecture](https://blog.cleancoder.com/uncle-bob/2017/03/03/TDD-Harms-Architecture.html#:~:text=Yes!,architecture%20%E2%80%93%20TDD%20or%20no%20TDD)
+
+###### Credits:
+<span style="font-size:0.7em;">[Image by macrovector from Freepik](https://de.freepik.com/vektoren-kostenlos/zwei-bewaffnete-gladiatoren-die-cartoon-kompositionsvektorillustration-bekaempfen_23579801.htm#query=rome%20war&position=7&from_view=search)</span>  
+<span style="font-size:0.7em;">[Image by pch.vector from Freepik](https://www.freepik.com/free-vector/angry-business-person-breaking-office-computer-with-big-hammer_20827534.htm#query=destroy&position=0&from_view=search)</span>
