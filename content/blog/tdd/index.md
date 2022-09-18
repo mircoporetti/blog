@@ -1,6 +1,6 @@
 ---
 title: TDD Who?
-date: "2022-09-16T19:24:12.284Z"
+date: "2022-09-18T15:16:12.284Z"
 description: "What's Test Driven Development and Why every developer should experience it?"
 ---
 
