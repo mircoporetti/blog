@@ -19,6 +19,8 @@ Every iteration could be described as follows:
 - GREEN: Create the minimum code to make it pass
 - REFACTOR: Remove duplication and improve your code without changing its behavior
 
+![Figure 1](./tdd.jpg "TDD cycle")
+
 #### How tests should be?
 Some popular characters (one for all Kent Beck, author of TDD by Example) expressed some rules about how tests should be:
 
@@ -80,6 +82,8 @@ That lack of separation of responsibility resulted in tests that were long and f
 
 REFACTOOOOR!
 
+![Figure 2](./hammer.jpg "Refactoring")
+
 TDD is a tool that gives us feedback on the quality of the design.
 The example above was not directly related to it but having some experience with this approach can change your way of thinking
 and it can be exploited for recognizing smells when you need to write tests on an existing codebase because if the design
@@ -102,6 +106,8 @@ interactions with the infrastructure.
 
 #### Outside in vs Inside out
 There is an endless debate on starting from the outside or the inside when you start your TDD cycle.
+
+![Figure 3](./gladiators.jpg "Outside in vs Inside out")
 
 Kent Beck wrote something like this: "Choose a test that teaches you something valuable and that you can write".
 A good idea could be to start from the most obscure and valuable part of the problem because it's probably the one
