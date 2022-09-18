@@ -43,7 +43,7 @@ day I can still learn something about that.
 #### Why I like it
 
 Why do I like Test Driven Development?
-Here's some reason:
+Here is some reason:
 
 ###### Incremental and small iterations
 TDD lets the design emerge exploring a problem iteratively and incrementally. That's an important aspect that helps me
@@ -53,13 +53,13 @@ Furthermore, it helps me focus on a single problem at a time.
 ###### Simplicity and focus on requirements
 
 It takes me on the right track to build a simpler design, write more maintainable code and more essential
-and useful tests that match the business requirements without necessarily being interested in how each single component
+and useful tests that match the business requirements without necessarily being interested in how every single component
 is built internally.
 
 About this point, just comes to my mind a task that we did on a project.
 We noticed an improper use of domain objects. They were used simply as data containers and the critical domain
 logic was implemented into many services that used those data, forgetting about object-oriented essence.
-For getting rid of such anemic usage of objects we decided to refactor a bit and as a first step we wrote some tests for the
+For getting rid of such anemic usage of objects we decided to refactor a bit and as a first step, we wrote some tests for the
 existing use-cases, inferring the requirements from the existing code and focusing on the input and the output of the problem
 without caring about every internal class.
 In this way, the first tests became our requirements, and they became our source of feedback for a safe refactoring of the domain logic.
