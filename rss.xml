@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Techie Thoughts by MP]]></description><link>https://mircoporetti.me/blog</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 18 Sep 2022 21:49:50 GMT</lastBuildDate><item><title><![CDATA[TDD Who?]]></title><description><![CDATA[Test Driven Development TDD is an approach for driving development by testing with the goal of a clean and simple design. While practicing…]]></description><link>https://mircoporetti.me/blog/tdd/</link><guid isPermaLink="false">https://mircoporetti.me/blog/tdd/</guid><pubDate>Sun, 18 Sep 2022 23:01:12 GMT</pubDate><content:encoded>&lt;h2&gt;Test Driven Development&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Techie Thoughts by MP]]></description><link>https://mircoporetti.me/blog</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 18 Sep 2022 21:52:07 GMT</lastBuildDate><item><title><![CDATA[TDD Who?]]></title><description><![CDATA[Test Driven Development TDD is an approach for driving development by testing with the goal of a clean and simple design. While practicing…]]></description><link>https://mircoporetti.me/blog/tdd/</link><guid isPermaLink="false">https://mircoporetti.me/blog/tdd/</guid><pubDate>Sun, 18 Sep 2022 23:01:12 GMT</pubDate><content:encoded>&lt;h2&gt;Test Driven Development&lt;/h2&gt;
 &lt;p&gt;TDD is an approach for driving development by testing with the goal of a clean and simple design. While practicing TDD
 the focus is on the requirements. It’s about development and design, not simply testing or coverage.&lt;/p&gt;
 &lt;p&gt;That’s a crucial point that in my opinion makes Test Driven Development   different and more valuable than generic
@@ -16,7 +16,7 @@ based on needs not on already thought solutions.&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/bcbc0fcce373656d41498674245d8fd8/dafaf/tdd.jpg&quot;
+    href=&quot;/blog/static/bcbc0fcce373656d41498674245d8fd8/cc6de/tdd.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -27,22 +27,22 @@ based on needs not on already thought solutions.&lt;/p&gt;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/blog/static/bcbc0fcce373656d41498674245d8fd8/e19c7/tdd.webp 1250w,
-/blog/static/bcbc0fcce373656d41498674245d8fd8/bca93/tdd.webp 2500w,
-/blog/static/bcbc0fcce373656d41498674245d8fd8/6cdbc/tdd.webp 2996w&quot;
+              srcset=&quot;/blog/static/bcbc0fcce373656d41498674245d8fd8/2899c/tdd.webp 1250w,
+/blog/static/bcbc0fcce373656d41498674245d8fd8/a3bc4/tdd.webp 2500w,
+/blog/static/bcbc0fcce373656d41498674245d8fd8/aa4b5/tdd.webp 2996w&quot;
               sizes=&quot;(max-width: 2996px) 100vw, 2996px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/blog/static/bcbc0fcce373656d41498674245d8fd8/66fdb/tdd.jpg 1250w,
-/blog/static/bcbc0fcce373656d41498674245d8fd8/08688/tdd.jpg 2500w,
-/blog/static/bcbc0fcce373656d41498674245d8fd8/dafaf/tdd.jpg 2996w&quot;
+            srcset=&quot;/blog/static/bcbc0fcce373656d41498674245d8fd8/76902/tdd.jpg 1250w,
+/blog/static/bcbc0fcce373656d41498674245d8fd8/44ecf/tdd.jpg 2500w,
+/blog/static/bcbc0fcce373656d41498674245d8fd8/cc6de/tdd.jpg 2996w&quot;
             sizes=&quot;(max-width: 2996px) 100vw, 2996px&quot;
             type=&quot;image/jpeg&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/blog/static/bcbc0fcce373656d41498674245d8fd8/dafaf/tdd.jpg&quot;
+            src=&quot;/blog/static/bcbc0fcce373656d41498674245d8fd8/cc6de/tdd.jpg&quot;
             alt=&quot;Figure 1&quot;
             title=&quot;TDD cycle&quot;
             loading=&quot;lazy&quot;
@@ -104,7 +104,7 @@ That lack of separation of responsibility resulted in tests that were long and f
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/dfdf2629b3aaf1117e27c0434598f920/dafaf/hammer.jpg&quot;
+    href=&quot;/blog/static/dfdf2629b3aaf1117e27c0434598f920/cc6de/hammer.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -115,22 +115,22 @@ That lack of separation of responsibility resulted in tests that were long and f
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/blog/static/dfdf2629b3aaf1117e27c0434598f920/e19c7/hammer.webp 1250w,
-/blog/static/dfdf2629b3aaf1117e27c0434598f920/bca93/hammer.webp 2500w,
-/blog/static/dfdf2629b3aaf1117e27c0434598f920/6cdbc/hammer.webp 2996w&quot;
+              srcset=&quot;/blog/static/dfdf2629b3aaf1117e27c0434598f920/2899c/hammer.webp 1250w,
+/blog/static/dfdf2629b3aaf1117e27c0434598f920/a3bc4/hammer.webp 2500w,
+/blog/static/dfdf2629b3aaf1117e27c0434598f920/aa4b5/hammer.webp 2996w&quot;
               sizes=&quot;(max-width: 2996px) 100vw, 2996px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/blog/static/dfdf2629b3aaf1117e27c0434598f920/66fdb/hammer.jpg 1250w,
-/blog/static/dfdf2629b3aaf1117e27c0434598f920/08688/hammer.jpg 2500w,
-/blog/static/dfdf2629b3aaf1117e27c0434598f920/dafaf/hammer.jpg 2996w&quot;
+            srcset=&quot;/blog/static/dfdf2629b3aaf1117e27c0434598f920/76902/hammer.jpg 1250w,
+/blog/static/dfdf2629b3aaf1117e27c0434598f920/44ecf/hammer.jpg 2500w,
+/blog/static/dfdf2629b3aaf1117e27c0434598f920/cc6de/hammer.jpg 2996w&quot;
             sizes=&quot;(max-width: 2996px) 100vw, 2996px&quot;
             type=&quot;image/jpeg&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/blog/static/dfdf2629b3aaf1117e27c0434598f920/dafaf/hammer.jpg&quot;
+            src=&quot;/blog/static/dfdf2629b3aaf1117e27c0434598f920/cc6de/hammer.jpg&quot;
             alt=&quot;Figure 2&quot;
             title=&quot;Refactoring&quot;
             loading=&quot;lazy&quot;
@@ -166,7 +166,7 @@ interactions with the infrastructure.&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/281736d9cfc447ccc28001acb166ffee/b552d/gladiators.jpg&quot;
+    href=&quot;/blog/static/281736d9cfc447ccc28001acb166ffee/18cf4/gladiators.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -177,22 +177,22 @@ interactions with the infrastructure.&lt;/p&gt;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/blog/static/281736d9cfc447ccc28001acb166ffee/e19c7/gladiators.webp 1250w,
-/blog/static/281736d9cfc447ccc28001acb166ffee/bca93/gladiators.webp 2500w,
-/blog/static/281736d9cfc447ccc28001acb166ffee/3d098/gladiators.webp 2995w&quot;
+              srcset=&quot;/blog/static/281736d9cfc447ccc28001acb166ffee/2899c/gladiators.webp 1250w,
+/blog/static/281736d9cfc447ccc28001acb166ffee/a3bc4/gladiators.webp 2500w,
+/blog/static/281736d9cfc447ccc28001acb166ffee/0907a/gladiators.webp 2995w&quot;
               sizes=&quot;(max-width: 2995px) 100vw, 2995px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/blog/static/281736d9cfc447ccc28001acb166ffee/66fdb/gladiators.jpg 1250w,
-/blog/static/281736d9cfc447ccc28001acb166ffee/08688/gladiators.jpg 2500w,
-/blog/static/281736d9cfc447ccc28001acb166ffee/b552d/gladiators.jpg 2995w&quot;
+            srcset=&quot;/blog/static/281736d9cfc447ccc28001acb166ffee/76902/gladiators.jpg 1250w,
+/blog/static/281736d9cfc447ccc28001acb166ffee/44ecf/gladiators.jpg 2500w,
+/blog/static/281736d9cfc447ccc28001acb166ffee/18cf4/gladiators.jpg 2995w&quot;
             sizes=&quot;(max-width: 2995px) 100vw, 2995px&quot;
             type=&quot;image/jpeg&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/blog/static/281736d9cfc447ccc28001acb166ffee/b552d/gladiators.jpg&quot;
+            src=&quot;/blog/static/281736d9cfc447ccc28001acb166ffee/18cf4/gladiators.jpg&quot;
             alt=&quot;Figure 3&quot;
             title=&quot;Outside in vs Inside out&quot;
             loading=&quot;lazy&quot;
