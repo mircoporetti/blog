@@ -37,7 +37,7 @@ const Layout = ({location, title, children}) => {
                 <CookieConsent
                     location="bottom"
                     buttonText="Allow Cookies"
-                    cookieName="mirco_poretti_blog"
+                    cookieName="mirco_poretti_website"
                     style={{background: "#134f5c"}}
                     buttonStyle={{color: "#000000", background: "#FFFFFF", fontSize: "90%", borderRadius: "7%"}}
                     enableDeclineButton={true}
@@ -55,7 +55,7 @@ const Layout = ({location, title, children}) => {
                         }
                     }
                 >
-                    This website uses cookies to improve the user experience and to allow you to write and read post's comments.{" "}
+                    This website uses cookies to improve the user experience, to analyze traffic and to allow you to write and read post's comments.{" "}
                 </CookieConsent>
             </div>
     )
