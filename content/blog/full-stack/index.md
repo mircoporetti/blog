@@ -19,6 +19,8 @@ from Frontend to Backend and Infrastructure.
 
 Years ago there wasn't a real distinction between Frontend, Backend, or whatever engineers: they were simply Software engineers.
 
+![Figure 1](fullstack.jpg "Full Stack Engineer")
+
 In the last decades, the "Full Stack Engineer" term became popular thanks also to some web development technologies and
 their stacks that became mainstream, like LAMP (Linux, Apache, MySql, Php) or MEAN (MongoDB, Express, AngularJs, Node.js)
 which contributed to the reunification of the role in the business world.
@@ -35,6 +37,9 @@ entire cycle of your product having a more clear picture of the processes.
 
 Anyway being a good developer isn't a synonym for "Developer who knows everything". <br />
 Who decides if you are a good developer? <br />
+
+![Figure 2](good_dev.jpg "Good Developer")
+
 You could work on Frontend, Backend, or Infrastructure without being involved in the others branches of engineering,
 excelling in your specific field. Wouldn't you be good enough?
 
@@ -68,6 +73,8 @@ I'm not saying that no one can do it: for sure
 the Diego Armando Maradona or the Einstein of the situation exists in every field, but it's not the rule!
 
 ### "Focus, Focus... Focus!"
+
+![Figure 3](focus.jpg "Focus")
 
 I decided at a certain point to focus more on what I liked and that was more akin to my attitude, and Backend, without
 precluding the joy of learning and touching also Frontend, DevOps stuff, and so on...
@@ -115,3 +122,7 @@ not in knowing everything superficially without clear goals.
 I believe in "Full Stack skills" as something that completes you, not in Full Stack Engineering as an all-in-one field or
 as a role.
 
+###### Credits:
+<span style="font-size:0.7em;">[Image by jcomp from Freepik](https://www.freepik.com/free-vector/man-who-thinks-idea-is-admired-by-thumbs-up_11879378.htm#query=good&from_query=I%20m%20good&position=4&from_view=search&track=sph)</span></br>
+<span style="font-size:0.7em;">[Image by jcomp from Freepik](https://www.freepik.com/free-vector/concentration-focus-business-goal-target-business-goal-solution-concept_20822842.htm#query=focus&position=4&from_view=search&track=sph)</span></br>
+<span style="font-size:0.7em;">[Image by pikisuperstar from Freepik](https://www.freepik.com/free-vector/programmer-working-isometric-style_4911005.htm#query=software%20engineer&position=27&from_view=search&track=sph)</span>
