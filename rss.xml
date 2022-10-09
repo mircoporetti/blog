@@ -1,4 +1,210 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Techie Thoughts by MP]]></description><link>https://mircoporetti.me/blog</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 19 Sep 2022 17:47:59 GMT</lastBuildDate><item><title><![CDATA[TDD Who?]]></title><description><![CDATA[Test Driven Development TDD is an approach for driving development by testing with the goal of a clean and simple design. While practicing…]]></description><link>https://mircoporetti.me/blog/tdd/</link><guid isPermaLink="false">https://mircoporetti.me/blog/tdd/</guid><pubDate>Sun, 18 Sep 2022 23:01:12 GMT</pubDate><content:encoded>&lt;h2&gt;Test Driven Development&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Techie Thoughts by MP]]></description><link>https://mircoporetti.me/blog</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 09 Oct 2022 17:30:04 GMT</lastBuildDate><item><title><![CDATA[I believe in Full Stack skills, not in Full Stack Engineering]]></title><description><![CDATA[Full Stack Engineering First, let’s try to give a couple of basic and simplified definitions of what is meant by Tech Stack and Full Stack…]]></description><link>https://mircoporetti.me/blog/full-stack/</link><guid isPermaLink="false">https://mircoporetti.me/blog/full-stack/</guid><pubDate>Sun, 09 Oct 2022 19:09:12 GMT</pubDate><content:encoded>&lt;h2&gt;Full Stack Engineering&lt;/h2&gt;
+&lt;p&gt;First, let’s try to give a couple of basic and simplified definitions of what is meant by Tech Stack and Full Stack Engineer.&lt;/p&gt;
+&lt;p&gt;A “Tech stack” is a set of technologies used together to build a software product.&lt;/p&gt;
+&lt;p&gt;A Full Stack Engineer could be defined in many ways but nowadays, the term is commonly referred to as an engineer
+who has enough knowledge and experience to efficiently work on the entire stack of an application,
+from Frontend to Backend and Infrastructure.&lt;/p&gt;
+&lt;h3&gt;Origins&lt;/h3&gt;
+&lt;p&gt;Years ago there wasn’t a real distinction between Frontend, Backend, or whatever engineers: they were simply Software engineers.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 2995px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/e208e273250c6628adbf8329e1e660fd/18cf4/fullstack.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAB2aWVkuECv//EABoQAAICAwAAAAAAAAAAAAAAAAECAxEAEBL/2gAIAQEAAQUCkuonbrQQCXP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAABEAASAiJB/9oACAEBAAY/AtZXMh26V//EABoQAQADAAMAAAAAAAAAAAAAAAEAESEQMVH/2gAIAQEAAT8hvqq9mqKllcMagw1h1P/aAAwDAQACAAMAAAAQhw//xAAWEQEBAQAAAAAAAAAAAAAAAAABERD/2gAIAQMBAT8QVpM//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QJ//EABoQAAIDAQEAAAAAAAAAAAAAAAERACExYfD/2gAIAQEAAT8QoyTtxTBpQSFy9o7NgNiPwmMsnyEGP//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/blog/static/e208e273250c6628adbf8329e1e660fd/2899c/fullstack.webp 1250w,
+/blog/static/e208e273250c6628adbf8329e1e660fd/a3bc4/fullstack.webp 2500w,
+/blog/static/e208e273250c6628adbf8329e1e660fd/0907a/fullstack.webp 2995w&quot;
+              sizes=&quot;(max-width: 2995px) 100vw, 2995px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/blog/static/e208e273250c6628adbf8329e1e660fd/76902/fullstack.jpg 1250w,
+/blog/static/e208e273250c6628adbf8329e1e660fd/44ecf/fullstack.jpg 2500w,
+/blog/static/e208e273250c6628adbf8329e1e660fd/18cf4/fullstack.jpg 2995w&quot;
+            sizes=&quot;(max-width: 2995px) 100vw, 2995px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/blog/static/e208e273250c6628adbf8329e1e660fd/18cf4/fullstack.jpg&quot;
+            alt=&quot;Figure 1&quot;
+            title=&quot;Full Stack Engineer&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In the last decades, the “Full Stack Engineer” term became popular thanks also to some web development technologies and
+their stacks that became mainstream, like LAMP (Linux, Apache, MySql, Php) or MEAN (MongoDB, Express, AngularJs, Node.js)
+which contributed to the reunification of the role in the business world.
+MEAN stack had a relevant role: both Backend and Frontend developers could start to work on the other side using the same
+programming language (in this case Javascript, and Typescript later). Its popularity put even more emphasis on the term “Stack”.&lt;/p&gt;
+&lt;p&gt;Now that we’ve given a bit of an overview of Full Stack’s common meaning, let’s go gradually to the point.&lt;/p&gt;
+&lt;h2&gt;Versatility is a skill, not a requirement&lt;/h2&gt;
+&lt;p&gt;Nowadays, it’s appreciated to have knowledge for being able to touch different parts of the systems, the so-called Full Stack skills,
+and it’s definitely something important because you can help your team in many ways, and you can better understand the
+entire cycle of your product having a more clear picture of the processes.&lt;/p&gt;
+&lt;p&gt;Anyway being a good developer isn’t a synonym for “Developer who knows everything”. &lt;br /&gt;
+Who decides if you are a good developer? &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 2995px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/5651dde3d46139143d6e6e47a98fa949/18cf4/good_dev.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAAB7UmAKLX/xAAaEAEBAQADAQAAAAAAAAAAAAACAQMABBIR/9oACAEBAAEFAoreZaeyuzBcVWcj5Md+f//EABcRAQADAAAAAAAAAAAAAAAAAAABEkH/2gAIAQMBAT8B1WX/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFX/8QAHBAAAQQDAQAAAAAAAAAAAAAAAAECEXEQEjGR/9oACAEBAAY/AuQLZDmP8NlFi8f/xAAbEAEAAgIDAAAAAAAAAAAAAAABABExUSFBYf/aAAgBAQABPyEG7j2MvKIz3EtwasMsDzA38aif/9oADAMBAAIAAwAAABC0z//EABkRAQACAwAAAAAAAAAAAAAAAAEAESExQf/aAAgBAwEBPxByE7Gzc//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQIBAT8QHjBy/8QAHhABAAIBBAMAAAAAAAAAAAAAAQARITFBUYFhcbH/2gAIAQEAAT8QBBQsMXuHOtyXkdMMv3qxyPEyYaaMGsCbF7e0z8gQNqxaT//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/blog/static/5651dde3d46139143d6e6e47a98fa949/2899c/good_dev.webp 1250w,
+/blog/static/5651dde3d46139143d6e6e47a98fa949/a3bc4/good_dev.webp 2500w,
+/blog/static/5651dde3d46139143d6e6e47a98fa949/0907a/good_dev.webp 2995w&quot;
+              sizes=&quot;(max-width: 2995px) 100vw, 2995px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/blog/static/5651dde3d46139143d6e6e47a98fa949/76902/good_dev.jpg 1250w,
+/blog/static/5651dde3d46139143d6e6e47a98fa949/44ecf/good_dev.jpg 2500w,
+/blog/static/5651dde3d46139143d6e6e47a98fa949/18cf4/good_dev.jpg 2995w&quot;
+            sizes=&quot;(max-width: 2995px) 100vw, 2995px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/blog/static/5651dde3d46139143d6e6e47a98fa949/18cf4/good_dev.jpg&quot;
+            alt=&quot;Figure 2&quot;
+            title=&quot;Good Developer&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;You could work on Frontend, Backend, or Infrastructure without being involved in the others branches of engineering,
+excelling in your specific field. Wouldn’t you be good enough?&lt;/p&gt;
+&lt;p&gt;That’s my honest and personal opinion: an engineer who is great in his/her field without a lot of knowledge of the others
+is not better than an Engineer who can touch everything but with mediocre skills in everything.&lt;/p&gt;
+&lt;p&gt;Why?&lt;/p&gt;
+&lt;p&gt;It’s all about QUALITY.&lt;/p&gt;
+&lt;h2&gt;The importance of focusing&lt;/h2&gt;
+&lt;p&gt;I’ve always been a Backend person since university.
+The first time I touched a Frontend framework during my first working experience I started to have an interest in Front End
+development.&lt;/p&gt;
+&lt;p&gt;In that period I felt like someone that is looking for a certain genre of movie to watch on his favorite streaming platform,
+and scrolling through the list he changes continuously idea being temporary attracted by the proposals but every time not enough
+for clicking the play button.
+Every time I started to go deeper into a technology, a type of architecture, or whatever there was something else fascinating that
+kept my attention, and I changed my plans.&lt;/p&gt;
+&lt;p&gt;During my study time, I was confused about what to study and after finishing a course or some basic beginner project
+I jumped to another topic that often wasn’t even much related.&lt;br /&gt;
+I didn’t go into every topic well because I was more interested in knowing a bit of everything.
+That’s perfect for learning many things, but I noticed that I was struggling to keep up with the technologies, concepts,
+approaches, etc. in every single sector, and you know… our field is huge, full of new technologies that are born every day.&lt;/p&gt;
+&lt;p&gt;I think it’s quite impossible to be a person who knows everything really well.&lt;br /&gt;
+I’m not saying that no one can do it: for sure
+the Diego Armando Maradona or the Einstein of the situation exists in every field, but it’s not the rule!&lt;/p&gt;
+&lt;h3&gt;“Focus, Focus… Focus!”&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 2995px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/90980ac4c2f9f79eb0c80967352d898f/18cf4/focus.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIFAQT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAABtJvCmkMK/8QAGhABAAIDAQAAAAAAAAAAAAAAAQISBBExIv/aAAgBAQABBQKSjdtFsa94fDn/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAbEAACAQUAAAAAAAAAAAAAAAAAAhEBECExYf/aAAgBAQAGPwKkHCRh8aaLf//EABsQAQACAgMAAAAAAAAAAAAAAAEAESExQVFh/9oACAEBAAE/IRoWcwTT13NarMoh3UzwvBxAAAon/9oADAMBAAIAAwAAABDXH//EABcRAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQMBAT8QTHLh/8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQIBAT8Qp//EABsQAQEAAwADAAAAAAAAAAAAAAERACExQWHw/9oACAEBAAE/EDAr1dnxk+ACgZHvvMveQJctVmyKdI8xDoqBIYNFw0QGgIZ//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/blog/static/90980ac4c2f9f79eb0c80967352d898f/2899c/focus.webp 1250w,
+/blog/static/90980ac4c2f9f79eb0c80967352d898f/a3bc4/focus.webp 2500w,
+/blog/static/90980ac4c2f9f79eb0c80967352d898f/0907a/focus.webp 2995w&quot;
+              sizes=&quot;(max-width: 2995px) 100vw, 2995px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/blog/static/90980ac4c2f9f79eb0c80967352d898f/76902/focus.jpg 1250w,
+/blog/static/90980ac4c2f9f79eb0c80967352d898f/44ecf/focus.jpg 2500w,
+/blog/static/90980ac4c2f9f79eb0c80967352d898f/18cf4/focus.jpg 2995w&quot;
+            sizes=&quot;(max-width: 2995px) 100vw, 2995px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/blog/static/90980ac4c2f9f79eb0c80967352d898f/18cf4/focus.jpg&quot;
+            alt=&quot;Figure 3&quot;
+            title=&quot;Focus&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I decided at a certain point to focus more on what I liked and that was more akin to my attitude, and Backend, without
+precluding the joy of learning and touching also Frontend, DevOps stuff, and so on…&lt;/p&gt;
+&lt;p&gt;I’m going on with this approach even today.&lt;br /&gt;
+At this specific period for example I’m learning a lot of “DevOps-related things” and sometimes even some Frontend concept
+working with my Team thanks also to more expert colleagues in those fields, but I continue to consider myself a
+“Software Engineer focused on the Backend dark side with a strong interest in learning even non-Backend things when useful
+and possible” but with clear priorities 😄.&lt;/p&gt;
+&lt;p&gt;Focusing on something and setting yourself clear goals is the best way to improve the quality of what you do
+because investing more time in it will allow you to build your experience on what you choose, improving day by day and
+keeping up with its evolution. &lt;br /&gt;
+This is not valid only in Software Engineering.&lt;/p&gt;
+&lt;p&gt;If you are even able to improve in other fields is for sure a great value, but it should be considered a plus that makes you more
+flexible and valuable, not the main goal that makes you lose your specialization.&lt;/p&gt;
+&lt;h2&gt;So what’s the problem behind Full Stack Engineering?&lt;/h2&gt;
+&lt;p&gt;The problem is not the person’s interest in being more versatile, but it’s the companies’ approach to that, which
+leads developers to think that the important thing is to know a little of everything, for being more desirable on the market,
+losing the focus on their own specialization.&lt;/p&gt;
+&lt;p&gt;It happens that Companies look for Full Stack Engineers, in order to hire fewer people who will have more responsibilities in different
+parts of the system.
+Sometimes they give less importance to one role over another, underestimating the impact of not having specialised people on the product.
+The reason is quite simple: it’s cheaper.&lt;/p&gt;
+&lt;p&gt;Yes, it’s true, that’s an economical advantage initially. But what does often happen after some time?&lt;br /&gt;
+As the applications grow, there will be more functionalities, many of them will change, and the complexity will change.
+The initial choice will become probably a costly choice in the future because each part of the system was designed with
+less experience and care compared to what a specialised engineer would have.&lt;/p&gt;
+&lt;p&gt;It’s a quality choice, and the lack of quality of a product will make its maintenance and its evolution more expensive in the future.&lt;/p&gt;
+&lt;p&gt;When a company only hires “Full Stack Engineers”, I hear a bell ringing right away. &lt;br /&gt;
+At least it is worth asking a few questions about the reasons behind the choice. 😄&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I believe in focusing on a field with the attitude to develop other skills as an added value,
+not in knowing everything superficially without clear goals.&lt;/p&gt;
+&lt;p&gt;I believe in “Full Stack skills” as something that completes you, not in Full Stack Engineering as an all-in-one field or
+as a role.&lt;/p&gt;
+&lt;h6&gt;Credits:&lt;/h6&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:0.7em;&quot;&gt;&lt;a href=&quot;https://www.freepik.com/free-vector/man-who-thinks-idea-is-admired-by-thumbs-up_11879378.htm#query=good&amp;#x26;from_query=I%20m%20good&amp;#x26;position=4&amp;#x26;from_view=search&amp;#x26;track=sph&quot;&gt;Image by jcomp from Freepik&lt;/a&gt;&lt;/span&gt;&lt;/br&gt;
+&lt;span style=&quot;font-size:0.7em;&quot;&gt;&lt;a href=&quot;https://www.freepik.com/free-vector/concentration-focus-business-goal-target-business-goal-solution-concept_20822842.htm#query=focus&amp;#x26;position=4&amp;#x26;from_view=search&amp;#x26;track=sph&quot;&gt;Image by jcomp from Freepik&lt;/a&gt;&lt;/span&gt;&lt;/br&gt;
+&lt;span style=&quot;font-size:0.7em;&quot;&gt;&lt;a href=&quot;https://www.freepik.com/free-vector/programmer-working-isometric-style_4911005.htm#query=software%20engineer&amp;#x26;position=27&amp;#x26;from_view=search&amp;#x26;track=sph&quot;&gt;Image by pikisuperstar from Freepik&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TDD Who?]]></title><description><![CDATA[Test Driven Development TDD is an approach for driving development by testing with the goal of a clean and simple design. While practicing…]]></description><link>https://mircoporetti.me/blog/tdd/</link><guid isPermaLink="false">https://mircoporetti.me/blog/tdd/</guid><pubDate>Sun, 18 Sep 2022 23:01:12 GMT</pubDate><content:encoded>&lt;h2&gt;Test Driven Development&lt;/h2&gt;
 &lt;p&gt;TDD is an approach for driving development by testing with the goal of a clean and simple design. While practicing TDD
 the focus is on the requirements. It’s about development and design, not simply testing or coverage.&lt;/p&gt;
 &lt;p&gt;That’s a crucial point that in my opinion makes Test Driven Development   different and more valuable than generic
@@ -23,7 +229,7 @@ based on needs not on already thought solutions.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 58.24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAEDBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAB2oLLkmMqf//EABkQAAMBAQEAAAAAAAAAAAAAAAECEQASEP/aAAgBAQABBQJmmU8YGjhbPP/EABYRAAMAAAAAAAAAAAAAAAAAABARIf/aAAgBAwEBPwFwf//EABYRAQEBAAAAAAAAAAAAAAAAABEBEP/aAAgBAgEBPwGrn//EABsQAAIBBQAAAAAAAAAAAAAAAAARARASITFR/9oACAEBAAY/Atod8y+jgazX/8QAGRABAQEAAwAAAAAAAAAAAAAAAREAITFB/9oACAEBAAE/IbYkYJRemBYpuRGvZg4AIb//2gAMAwEAAgADAAAAEEwP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QBH//xAAWEQEBAQAAAAAAAAAAAAAAAAABADH/2gAIAQIBAT8QGDF//8QAGhABAAIDAQAAAAAAAAAAAAAAAQARITFBUf/aAAgBAQABPxA8KzapcAG8tkV7jUKAXSRXNS2i2HHaecICAA4T/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 58.24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAEDBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAB2oLLmmMof//EABkQAAMBAQEAAAAAAAAAAAAAAAECEQASEP/aAAgBAQABBQJmmU8YGjhbPP/EABYRAAMAAAAAAAAAAAAAAAAAABARIf/aAAgBAwEBPwFwf//EABYRAQEBAAAAAAAAAAAAAAAAABEBEP/aAAgBAgEBPwGrn//EABsQAAIBBQAAAAAAAAAAAAAAAAARARASITFR/9oACAEBAAY/Atod8y+jgazX/8QAGRABAQEBAQEAAAAAAAAAAAAAAREAITFB/9oACAEBAAE/IbYkYJRfGBYpuiNfZg9wQhv/2gAMAwEAAgADAAAAEEQP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QBH//xAAWEQEBAQAAAAAAAAAAAAAAAAABADH/2gAIAQIBAT8QGDF//8QAGhABAAMBAQEAAAAAAAAAAAAAAQARIUExUf/aAAgBAQABPxA8Fm1S4AN5bRX3PIcEviRXYltFsGaUecIBAAcJ/9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -111,7 +317,7 @@ That lack of separation of responsibility resulted in tests that were long and f
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 58.24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAB2VPrFtJKj//EABkQAAMAAwAAAAAAAAAAAAAAAAABAhASMf/aAAgBAQABBQKrHdC45Ncf/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BCf/EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPwFXZ//EABgQAAIDAAAAAAAAAAAAAAAAAAACEiBB/9oACAEBAAY/AhY7X//EABoQAAMBAAMAAAAAAAAAAAAAAAABESExUdH/2gAIAQEAAT8hhceaPdDR+iTAi3RJeWLD/9oADAMBAAIAAwAAABCUL//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPxAA2f/EABYRAQEBAAAAAAAAAAAAAAAAAAABMf/aAAgBAgEBPxCImP/EABsQAQADAQADAAAAAAAAAAAAAAEAESFBYXHR/9oACAEBAAE/ECrMGjsPZu2G0QQCU8tsfuGqyKHP18goBP/Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 58.24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAB2VPrFtJKj//EABkQAAMAAwAAAAAAAAAAAAAAAAABAhASMf/aAAgBAQABBQKrHdC45Ncf/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BCf/EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPwFXZ//EABgQAAIDAAAAAAAAAAAAAAAAAAACEiBB/9oACAEBAAY/AhY7X//EABkQAAMBAQEAAAAAAAAAAAAAAAABESExUf/aAAgBAQABPyGFx5o94NGJMCLdEl6xYf/aAAwDAQACAAMAAAAQlC//xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QANn/xAAWEQEBAQAAAAAAAAAAAAAAAAAAATH/2gAIAQIBAT8QiJj/xAAcEAEAAwACAwAAAAAAAAAAAAABABEhQVFhcdH/2gAIAQEAAT8QKswaOYOzdsNo7hAJTy2x+4arIocfr5BQCf/Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -173,7 +379,7 @@ interactions with the infrastructure.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 58.24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAHtNICLGf/EABkQAQADAQEAAAAAAAAAAAAAAAIAAREQEv/aAAgBAQABBQJLIlCqVZPPP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPwGlf//EABcQAQEBAQAAAAAAAAAAAAAAAAEAESD/2gAIAQEABj8CIbTj/8QAGhABAAIDAQAAAAAAAAAAAAAAAQARITFBYf/aAAgBAQABPyFnQ27lAGuk5PYlzAewKKn/2gAMAwEAAgADAAAAEMgf/8QAFxEBAQEBAAAAAAAAAAAAAAAAEQABIf/aAAgBAwEBPxDAbR5f/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQEQ/9oACAECAQE/EKhn/8QAGRABAQEBAQEAAAAAAAAAAAAAAREAITFh/9oACAEBAAE/EDsZBTkYHXR7MLRfJSZD0PxwyVEkXAAIHA3/2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 58.24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAHtNICLGf/EABkQAQADAQEAAAAAAAAAAAAAAAIAAREQEv/aAAgBAQABBQJLIlCqVZPPP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPwGlf//EABcQAQEBAQAAAAAAAAAAAAAAAAEAESD/2gAIAQEABj8CIbTj/8QAGRABAAMBAQAAAAAAAAAAAAAAAQARMUFh/9oACAEBAAE/IWdDXZQBnScnsStwHsCip//aAAwDAQACAAMAAAAQyB//xAAXEQEBAQEAAAAAAAAAAAAAAAARAAEh/9oACAEDAQE/EMBtHl//xAAWEQEBAQAAAAAAAAAAAAAAAAARARD/2gAIAQIBAT8QqGf/xAAYEAEAAwEAAAAAAAAAAAAAAAABABEhMf/aAAgBAQABPxA7xoUxGBrR2oLReSlTQEeYwZVoqqWAAKDk/9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
