@@ -1,6 +1,6 @@
 ---
-title: I believe in Full Stack skills, but not in Full Stack Engineering
-date: "2022-10-09T17:43:12.284Z"
+title: I believe in Full Stack skills, not in Full Stack Engineering
+date: "2022-10-09T19:09:12.284Z"
 description: "There is a lot of hype around Full Stack Engineering today. Here's why that could 
 be a problem."
 ---
