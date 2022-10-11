@@ -27,7 +27,7 @@ const BlogPostTemplate = ({data, location}) => {
 
     const {consent} = useContext(CookieContext)
 
-    //Rehydration issue management
+    //Rehydration issue management - solution found here https://www.joshwcomeau.com/react/the-perils-of-rehydration/
     const [hasMounted, setHasMounted] = React.useState(false);
     React.useEffect(() => {
         setHasMounted(true);
