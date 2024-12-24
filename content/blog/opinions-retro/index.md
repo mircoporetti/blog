@@ -2,7 +2,7 @@
 title: "Lessons Learned and Questionable Opinions: A Retrospective on 10 Years of Software Engineering"
 date: "2024-12-01T19:09:12.284Z"
 description: "As I'm approaching a new decade of my career in Software Engineering, I've been reflecting on the lessons 
-learned and the (sometimes not commonly accepted or debatable) opinions I've formed over the years."
+learned and the (debatable) opinions I've formed over the years."
 ---
 
 A new decade of my journey in Software Engineering is around the corner, and I've been reflecting on the opinions I've formed over the years.
