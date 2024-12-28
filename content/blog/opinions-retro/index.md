@@ -69,18 +69,18 @@ Here are some examples:
 
 ### Follow things ByTheBook?
 
-Think about a book you read, which focuses on a specific topic, let's say on something related to architecture. You read it, you found it amazing, everything makes a lot of sense,
+Think about a book you read, which focuses on a specific topic, let's say on something related to architecture (but not necessarily). You read it, you found it amazing, everything makes a lot of sense,
 and you look forward to applying everything starting the next day. Soon you realize that the context where you are trying to apply it by the book makes you feel like you are trying to use a sledgehammer to crack a nut.
 
 So here comes the question: is it always a good idea to apply things exactly how they are described? The very short answer is: no. The most important thing is to understand the principles behind the concepts described.
-Sticking to the perfect ideal solution could lead to a lot of problems. Instead, it's better to stay open to variants which fit better your context.
+Sticking to the exact/perfect/ideal solution could lead to a lot of problems. Instead, it's better to stay open to variants which fit better your context.
 
 ### Design patterns
 
 Design Patterns, oh dear Design patterns! You are so useful when we have to solve known problems, but how many times have you been implemented straight without going with a simpler implementation first,
 and then the code became unnecessarily more difficult to read and maintain? The best way to understand if it's worth introducing them is often the same: iterative approach. TDD can help a lot with it.
 
-### Everything generic from the start
+### Everything generic since the beginning
 
 In these years I've frequently seen this tendency: discussions between colleagues even before starting to work on the first version of a solution, or during the first code reviews,
 about how to make it more generic because "MAYBE, who knows in the future...".
@@ -91,16 +91,33 @@ because at the time of introducing the future change, the team discovers that th
 
 To the bin!
 
-One of the recurrent buzzwords is system scalability, but being generic from the start is not always the best choice, and it doesn't mean to be scalable.
-The solution and the system will be scalable if they are designed to be open for new changes without frustration.
+One of the recurrent buzzwords is system scalability, but being generic since the beginning is not always the best choice, and it doesn't mean to be scalable.
+The solution and the system will be scalable if they are designed to be open for new changes without frustration and too much cost.
 
 ## Organization and collaboration
 
 ### "Agile" != Scrum
 
-### Working on things you don't own: respect the owners choices
+In the modern IT industry, the right to use the term "Agile" is often claimed simply by using one of the popular frameworks like [Scrum](https://www.scrum.org/).
+Scrum is just one of the frameworks that can be used to facilitate the application of Agile principles, but it's not the only one, and it's not enough.
+
+In fact, the adoption of Scrum doesn't guarantee the values of the [Manifesto for Agile Software Development](https://agilemanifesto.org/) are embraced.
+For example, if the team uses the board as the framework prescribes, organizes in Sprints with related ceremonies, but people don't communicate directly and overuse scheduled meetings,
+don't interact with the customers, give priority to "tools over individuals", they are not open to changes on already defined plans, 
+and most importantly they don't deliver working software frequently (Continuous delivery of valuable software), the framework becomes only another tool which has not so much to do with the Agile original idea.
+
+I mention the "Agile original idea" not casually, because the manifesto was created many years ago and I recognize that the industry evolved a lot since then along with the organizational challenges.
+While the seed concept was more focused on Software Development as the name of the manifesto also suggests, and we should always keep it in mind, it was slowly labeled to the whole company culture.
+I believe it can be seen as a good thing, meaning that what the signatories wrote was so powerful to change also the way of thinking of the whole organization, 
+but at the same time it could be a facade to be more appealing and to showcase the use of specific frameworks, without truly embracing the manifesto core idea.
+
+Vice versa, it's possible to apply Agile principles without using Scrum (or Kanban or whatever).
+
+As a last thought, Scrum is very nice but even for it, [Follow things ByTheBook?](#follow-things-bythebook) is valid.
 
 ### Meetings all the time don't generate effective communication
+
+### Working on things you don't own: respect the owners choices
 
 ## Tests, my precious!
 
