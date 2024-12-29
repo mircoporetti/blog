@@ -11,7 +11,7 @@ I recognize I changed my ideas on some topics, thanks to the experiences I lived
 As I didn't track them over time, I decided to start now, so I can look back in the future and see how my thoughts and convictions evolved. As usual,
 it could be a nice way to collect feedback, also useful for my growth.
 
-Here’s a collection of technical and non-technical opinions and/or lessons learned, presented briefly to give an overview rather than an exhaustive analysis.
+Here’s a collection of technical and non-technical opinions and/or lessons learned presented as brief pills, to give an overview of the idea rather than an exhaustive analysis.
 
 ## Trending solutions are not always the best
 
@@ -115,14 +115,47 @@ Vice versa, it's possible to apply Agile principles without using Scrum (or Kanb
 
 As a last thought, Scrum is very nice but even for it, [Follow things ByTheBook?](#follow-things-bythebook) is valid.
 
-### Meetings all the time don't generate effective communication
+### Meet all the time don't generate effective communication
 
-### Working on things you don't own: respect the owners choices
+As already mentioned in the previous paragraph, meetings are often overused. Sometimes because the framework used requires it (and it is not questioned and adapted after working together for a while),
+sometimes because people try to build a culture focused on the frequency of the scheduled communication, sometimes due to other specific team dynamics.
+Even though it is usually done with good intentions, in some situations it could lead to the opposite effect: people join even if they are not directly interested
+in the topic just because the event is scheduled, thereby losing time that could be spent more productively, or the meeting itself becomes a monologue
+or a place to talk about something that doesn't require such a time slot (ergo people's precious time).
+
+Effective communication doesn't mean frequent in-person scheduled appointments, but it means being clear and focused on the goal of the conversation,
+whether written or spoken. Many times it could be worth considering async communication, preparing documentation or a written space for discussions,
+and then organizing a meeting only if the need arises.
+
+Additionally, in some occasions, the team found it very useful to schedule recurrent meetings in a way that does not interrupt the flow of work.
+
+### Working on Things You Don't Own: Respect the Owner's Choices
+
+"Hey friend, I opened a PR on your repo, and I saw your review comment saying to align with your team standard, but honestly I think that's not the way to go..."
+
+I'm sure this sounds familiar right?
+Everyone has its own values, principles, and standards. Many times as humans we tend to think that our way is the best, because behind that there is experience,
+effort, researches, sweated discussions.
+
+It is totally fair and precious to discuss the choices made by others. This always valid in life in general, also in discussions between the members of your same team
+but especially when you are working on something you don't own there could be some friction and loss of time due to it. 
+Code Reviews are a great place for discussions, and it's a great way to learn from each other or to bring new ideas to light.
+
+However, some of the things to consider:
+
+- other side's choices are often made in the same way you made yours, after many discussions with people and experimentation -> be open to understand the reasons behind them and to change yours if makes sense
+- even if after discussion your prospective emerges to be better, it's not always the best choice to go straight with it -> sometimes standards are painful to be redefined and reapplied to the existing codebase, 
+and the trade-off between effort, benefit, and cost doesn't justify the change.
+- Not all the people are open to such discussions in general or in the specific moment -> communicate your intention and postpone the discussion to a better time,
+or take a breath and give up the idea if it's not so impactful.
+
+Find the balance between bringing things to the table, gradually "pushing" your ideas if it really worth even if not accepted at the first time,
+and quitting when the return isn't worth the investment.
 
 ## Tests, my precious!
 
-### You don't need to test every single function
-
 ### Code coverage is not a measure of quality and shouldn't be a goal
 
-### Test Driven Development
+### You don't need to test every single function
+
+## Tools are not so important (title ????) 
