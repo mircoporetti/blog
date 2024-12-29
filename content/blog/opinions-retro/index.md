@@ -11,7 +11,7 @@ I recognize I changed my ideas on some topics, thanks to the experiences I lived
 As I didn't track them over time, I decided to start now, so I can look back in the future and see how my thoughts and convictions evolved. As usual,
 it could be a nice way to collect feedback, also useful for my growth.
 
-Here’s a collection of technical and non-technical opinions and/or lessons learned, presented briefly to give an overview rather than an exhaustive analysis.
+Here’s a collection of technical and non-technical opinions and/or lessons learned presented as brief pills, to give an overview of the idea rather than an exhaustive analysis.
 
 ## Trending solutions are not always the best
 
@@ -115,14 +115,26 @@ Vice versa, it's possible to apply Agile principles without using Scrum (or Kanb
 
 As a last thought, Scrum is very nice but even for it, [Follow things ByTheBook?](#follow-things-bythebook) is valid.
 
-### Meetings all the time don't generate effective communication
+### Meet all the time don't generate effective communication
+
+As already mentioned in the previous paragraph, meetings are often overused. Sometimes because the framework used requires it (and it is not questioned and adapted after working together for a while),
+sometimes because people try to build a culture focused on the frequency of the scheduled communication, sometimes due to other specific team dynamics.
+Even though it is usually done with good intentions, in some situations it could lead to the opposite effect: people join even if they are not directly interested
+in the topic just because the event is scheduled, thereby losing time that could be spent more productively, or the meeting itself becomes a monologue
+or a place to talk about something that doesn't require such a time slot (ergo people's precious time).
+
+Effective communication doesn't mean frequent in-person scheduled appointments, but it means being clear and focused on the goal of the conversation,
+whether written or spoken. Many times it could be worth considering async communication, preparing documentation or a written space for discussions,
+and then organizing a meeting only if the need arises.
+
+Additionally, in some occasions, the team found it very useful to schedule recurrent meetings in a way that does not interrupt the flow of work.
 
 ### Working on things you don't own: respect the owners choices
 
 ## Tests, my precious!
 
-### You don't need to test every single function
-
 ### Code coverage is not a measure of quality and shouldn't be a goal
 
-### Test Driven Development
+### You don't need to test every single function
+
+## Tools are not so important (title ????) 
