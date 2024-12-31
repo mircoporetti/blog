@@ -154,8 +154,41 @@ and quitting when the return isn't worth the investment.
 
 ## Tests, my precious!
 
-### Code coverage is not a measure of quality and shouldn't be a goal
+Tests are a vital part of the software development process. They are often sacrificed in favor of short term delivery time,
+but what sometimes is not considered it's the time, frustration and costs that they let you save in the long term, which usually are way
+more significant than the time spent to implement them.
+
+I couldn't help but write at least two points about it :) 
 
 ### You don't need to test every single function
 
-## Tools are not so important (title ????) 
+There is a big misconception about testing. When we talk about testing, we often think about unit tests and the tendency is to test every single function.
+This happens when the dev is out of focus on the real goal of the tests: being sure the business requirements are met and the code works as expected.
+When the attention is not on this aspect, but it becomes a mechanical action on every single function, the risk is to make the codebase a way more difficult to change
+without so much value in return, as the tests and production code become too coupled. 
+
+Additionally, it can be also counterproductive robustness-wise, because with such approach the tests become often meaningless, 
+full of mocks and less centered on verifying the real requirements.
+
+Test Driven Development can definitely help to shift the mindset.
+I wrote some line about it in my previous article [TDD Who?](/tdd/).
+
+In the next section, an honorable mention to another aspect of the problem.
+
+### Code coverage is not a measure of quality and shouldn't be the goal
+
+Code Coverage is a useful metric. It can be valuable especially when a team is transitioning to testing in a codebase where tests are not present or when the members are not experienced with it.
+It also gives a rough indication if there was any forgetfulness at the time of running pipelines to anticipate the deliver of the feature,
+or also used as a metric for having an overview idea of the state of the codebase.
+
+What is important in my opinion is to understand that Code Coverage is a quantity metric, and it has to considered as such.
+It is not a quality metric. Writing tests with the main idea of increasing coverage is not fair, and it could lead to the traps mentioned previously.
+
+In the daily work I found many times especially after testing in integration a use case, that the tool as something not able to understand the testing approach,
+it suggested to cover with unit tests something that didn't need it. And guess what? Red pipeline. And how do you fix it? :) Write useless tests or add an annotation/configuration to hack it.
+This happens because the tools used are not able to understand if the tests are meaningful and what is the context in which they are written,
+and the reason behind them. (Who knows what AI could do in the future ;) ).
+
+So what?
+I believe Code Coverage can be useful, but should not be the goal, rather a consequence of tests written with a requirement-first mindset.
+The percentage in output can be meaningful but it should be interpreted with caution, to not slow down the work without a real benefit and to not push people to a wrong direction.
