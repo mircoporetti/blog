@@ -170,7 +170,7 @@ and then organizing a meeting only when it’s truly needed.
 In some instances, teams have also found it useful to schedule recurring meetings in a way that minimizes interruptions to the flow of work,
 for example, by holding them at the start or end of the working day.
 
-Bonus Content: As a small provocation, and as proof that adapting frameworks and embracing asynchronous communication is both feasible and effective,
+**Bonus Content:** As a small provocation, and as proof that adapting frameworks and embracing asynchronous communication is both feasible and effective,
 even when challenging well-established practices,
 I recommend reading about Marco Polita’s real-world experience as a team lead at Remote.com. He describes switching from the classic Daily Stand-up meeting to an asynchronous Daily Journal:
 
