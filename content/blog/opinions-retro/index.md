@@ -64,6 +64,7 @@ Everyone who has ever worked with REST APIs had to map the response of an HTTP c
 In the past years, I saw teams adopting libraries that automatically map responses to models as a standard, using external tools,
 like XML mappers, JSON Schemas mappers, and so on. They are very useful for simple mappings, but personally,
 I’ve found that in some cases, they caused myself and my colleagues to waste more time than we would have spent by implementing the mapping logic ourselves through the code.
+
 It's fair to mention that the time wasted for writing new schemas and mappers was reduced as we became more familiar with the library 
 (because of the learning curve).However, it was still more difficult to debug and maintain the code, and sometimes it led to some frustration :dizzy_face:.
 
