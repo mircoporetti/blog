@@ -12,8 +12,18 @@ while others have remained the same.
 As I haven't tracked them over time, I decided to start now so I can look back in the future and see how my thoughts and convictions have evolved. As usual,
 it could be a nice way to collect feedback, which will also be useful for my growth.
 
-Here’s a collection of technical and non-technical opinions and/or lessons learned. 
-They’re presented as condensed "pills" to provide a snapshot of each idea rather than a deep dive.
+Here’s a collection of technical and non-technical opinions and lessons learned. 
+
+The main topics are:
+
+- [Trending solutions are not always the best](#trending-solutions-are-not-always-the-best)
+
+- [Principles and conventions: Nothing is Absolute!](#principles-and-conventions-nothing-is-absolute)
+
+- [Organization and collaboration](#organization-and-collaboration)
+
+- [Tests, my precious!](#tests-my-precious)
+
 
 ## Trending solutions are not always the best
 
@@ -130,7 +140,7 @@ While the manifesto’s original focus was more on software development (as its 
 I believe this can be seen as a positive thing, demonstrating how powerful the manifesto’s principles are in shaping organizational thinking.
 However, it can also become a facade used to appear more appealing or to showcase specific frameworks without truly embracing the manifesto’s core ideas.
 
-Conversely, it’s entirely possible to apply Agile principles without using Scrum (or Kanban, or any other framework).
+On the contrary, it’s entirely possible to apply Agile principles without using Scrum (or Kanban, or any other framework).
 
 As a final thought, Scrum is a great framework, but even for it, the idea of [Follow things ByTheBook?](#follow-things-bythebook) remains valid.
 
