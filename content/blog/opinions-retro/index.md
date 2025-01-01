@@ -236,3 +236,12 @@ I believe code coverage can be useful but shouldn’t be the goal. It should ins
 with a requirement-first mindset.
 While the percentage output can provide insights, it must be interpreted cautiously to avoid slowing down progress without
 real benefits or pushing teams in the wrong direction.
+
+## Conclusion
+The main idea was to take a snapshot of some of my thoughts. I'm quite sure that some of them will change or at least 
+will evolve a bit.
+I'm curious to look back at this article in the future and see how my opinions have developed.
+
+Feel free to contact me if you like to leave your opinion or discuss any of the topics.
+
+Cheers!
