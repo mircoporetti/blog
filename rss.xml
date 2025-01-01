@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Techie Thoughts by MP]]></description><link>https://mircoporetti.me/blog</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 01 Jan 2025 15:21:12 GMT</lastBuildDate><item><title><![CDATA[Lessons Learned and Questionable Opinions: A Retrospective on 10 Years of Software Engineering]]></title><description><![CDATA[A new decade of my journey in Software Engineering is around the corner, and I've been reflecting on the opinions I've formed over the years…]]></description><link>https://mircoporetti.me/blog/opinions-retro/</link><guid isPermaLink="false">https://mircoporetti.me/blog/opinions-retro/</guid><pubDate>Wed, 01 Jan 2025 19:09:12 GMT</pubDate><content:encoded>&lt;p&gt;A new decade of my journey in Software Engineering is around the corner, and I&apos;ve been reflecting on the opinions I&apos;ve formed over the years.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Techie Thoughts by MP]]></description><link>https://mircoporetti.me/blog</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 01 Jan 2025 15:48:10 GMT</lastBuildDate><item><title><![CDATA[Lessons Learned and Questionable Opinions: A Retrospective on 10 Years of Software Engineering]]></title><description><![CDATA[A new decade of my journey in Software Engineering is around the corner, and I’ve been reflecting on the opinions I’ve formed over the years…]]></description><link>https://mircoporetti.me/blog/opinions-retro/</link><guid isPermaLink="false">https://mircoporetti.me/blog/opinions-retro/</guid><pubDate>Wed, 01 Jan 2025 19:09:12 GMT</pubDate><content:encoded>&lt;p&gt;A new decade of my journey in Software Engineering is around the corner, and I’ve been reflecting on the opinions I’ve formed over the years.
 I recognize that I’ve changed my ideas on some topics, thanks to the experiences I’ve had and the people I’ve had the pleasure of working with,
 while others have remained the same.&lt;/p&gt;
-&lt;p&gt;As I haven&apos;t tracked them over time, I decided to start now so I can look back in the future and see how my thoughts and convictions have evolved. As usual,
+&lt;p&gt;As I haven’t tracked them over time, I decided to start now so I can look back in the future and see how my thoughts and convictions have evolved. As usual,
 it could be a nice way to collect feedback, which will also be useful for my growth.&lt;/p&gt;
 &lt;p&gt;Here’s a collection of technical and non-technical opinions and lessons learned.&lt;/p&gt;
 &lt;p&gt;The main topics are:&lt;/p&gt;
@@ -22,40 +22,40 @@ it could be a nice way to collect feedback, which will also be useful for my gro
 &lt;h2 id=&quot;trending-solutions-are-not-always-the-best&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#trending-solutions-are-not-always-the-best&quot; aria-label=&quot;trending solutions are not always the best permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Trending solutions are not always the best&lt;/h2&gt;
 &lt;p&gt;When we are fresh and enthusiastic about new things, especially when we are new to the field and hungry for knowledge, we tend to think
 that the latest and coolest released tool, approach or whatever, is the best solution for every problem we need to solve.
-It&apos;s definitely a mistake I made in the past, especially at the start of my career. It can happen also in later stages
+It’s definitely a mistake I made in the past, especially at the start of my career. It can happen also in later stages
 if we get carried away by enthusiasm and trends.&lt;/p&gt;
 &lt;p&gt;The best solution is not determined by its popularity or age, but by the specific context in which it has to be applied.
 The focus should always be on the problem to solve, not on the solution which makes your eyes shine.&lt;/p&gt;
-&lt;p&gt;Let&apos;s give some examples of this.&lt;/p&gt;
+&lt;p&gt;Let’s give some examples of this.&lt;/p&gt;
 &lt;h4 id=&quot;microservices&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#microservices&quot; aria-label=&quot;microservices permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Microservices&lt;/h4&gt;
-&lt;p&gt;Microservices are the perfect example. They are a great architectural approach for many situations, and it&apos;s often adopted as a standard,
-but they&apos;re not the best solution for all of them. As with most choices, it has its pros and cons. To mention few of them without going too deep into the topic:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;It&apos;s great for:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Microservices are the perfect example. They are a great architectural approach for many situations, and it’s often adopted as a standard,
+but they’re not the best solution for all of them. As with most choices, it has its pros and cons. To mention few of them without going too deep into the topic:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;It’s great for:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;scalability (even though it’s not the only way to scale)&lt;/li&gt;
-&lt;li&gt;splitting the responsibilities of the system based on the contexts...&lt;/li&gt;
-&lt;li&gt;...and between different teams (a social problem)&lt;/li&gt;
+&lt;li&gt;splitting the responsibilities of the system based on the contexts…&lt;/li&gt;
+&lt;li&gt;…and between different teams (a social problem)&lt;/li&gt;
 &lt;li&gt;using different technologies for different domains&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;and it&apos;s &quot;meh&quot; for:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;and it’s “meh” for:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;overhead&lt;/li&gt;
 &lt;li&gt;complexity&lt;/li&gt;
 &lt;li&gt;costs&lt;/li&gt;
-&lt;li&gt;other distributed system challenges...&lt;/li&gt;
+&lt;li&gt;other distributed system challenges…&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Do you really need it? Or even better, do you really need it now? In this case, as in many situations, going iteratively could be a good approach.
-For example, initially, you could achieve many of the benefits of a Microservices architecture by building a Monolith (moo-noo-lith… mooo-nooo-lith…!!! :fearful:),
+For example, initially, you could achieve many of the benefits of a Microservices architecture by building a Monolith (moo-noo-lith… mooo-nooo-lith…!!! 😨),
 just applying good principles to make it very easy to extract a Microservice if really needed later.&lt;/p&gt;
 &lt;h4 id=&quot;mapping-libraries&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mapping-libraries&quot; aria-label=&quot;mapping libraries permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Mapping libraries&lt;/h4&gt;
 &lt;p&gt;Everyone who has ever worked with REST APIs had to map the response of an HTTP call to some defined model.
 In the past years, I saw teams adopting libraries that automatically map responses to models as a standard, using external tools,
 like XML mappers, JSON Schemas mappers, and so on. They are very useful for simple mappings, but personally,
 I’ve found that in some cases, they caused myself and my colleagues to waste more time than we would have spent by implementing the mapping logic ourselves through the code.&lt;/p&gt;
-&lt;p&gt;It&apos;s fair to mention that the time wasted for writing new schemas and mappers was reduced as we became more familiar with the library
-(because of the learning curve).However, it was still more difficult to debug and maintain the code, and sometimes it led to some frustration :dizzy_face:.&lt;/p&gt;
+&lt;p&gt;It’s fair to mention that the time wasted for writing new schemas and mappers was reduced as we became more familiar with the library
+(because of the learning curve).However, it was still more difficult to debug and maintain the code, and sometimes it led to some frustration 😵.&lt;/p&gt;
 &lt;h4 id=&quot;orms&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#orms&quot; aria-label=&quot;orms permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ORMs&lt;/h4&gt;
-&lt;p&gt;Similarly, I believe ORMs deserve a mention. Don&apos;t get me wrong, ORMs are great tools, and they can save a lot of time, especially in the early stages of a project,
+&lt;p&gt;Similarly, I believe ORMs deserve a mention. Don’t get me wrong, ORMs are great tools, and they can save a lot of time, especially in the early stages of a project,
 but not only then. They add an abstraction layer between the database and the application, making the code easier to read,
 generally faster to write for small projects or small parts of the projects, and less tightly coupled to the database being used.
 Unfortunately, ORMs also have some drawbacks, such as performance issues, a lack of control in more complex scenarios,
@@ -71,7 +71,7 @@ This topic could be considered the twin of the previous one, but it focuses less
 &lt;p&gt;Think about a book you’ve read that focuses on a specific topic, perhaps something related to architecture (but not necessarily).
 You found it amazing, everything made a lot of sense,
 and you couldn’t wait to start applying it all the next day. But soon, you realize the context where you’re trying to apply it
-&quot;by the book&quot; makes you feel like you’re using a sledgehammer to crack a nut.&lt;/p&gt;
+“by the book” makes you feel like you’re using a sledgehammer to crack a nut.&lt;/p&gt;
 &lt;p&gt;For example, as a fan of Clean/Hexagonal Architecture, I initially tended to adhere strictly to certain aspects as they were written.
 A simple case, to illustrate, was the mapping between layers, which sometimes felt overkill for specific situations and even led
 to performance issues. Over time, I realized the importance of finding compromises without breaking the core principles
@@ -87,7 +87,7 @@ you been implemented directly without first considering a simpler solution, only
 can be incredibly helpful in this process.&lt;/p&gt;
 &lt;h4 id=&quot;everything-generic-since-the-beginning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#everything-generic-since-the-beginning&quot; aria-label=&quot;everything generic since the beginning permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Everything generic since the beginning&lt;/h4&gt;
 &lt;p&gt;Over the years, I’ve frequently noticed this tendency: discussions among colleagues, even before starting to work on the first version of
-a solution or during the initial code reviews, about how to make it more generic because &quot;MAYBE, who knows, in the future…&quot;.&lt;/p&gt;
+a solution or during the initial code reviews, about how to make it more generic because “MAYBE, who knows, in the future…“.&lt;/p&gt;
 &lt;p&gt;But what about addressing the future when the future comes? To be clear, sometimes it’s a good idea to anticipate certain
 aspects, not only technically but also, and more importantly, from a business perspective, especially when there are strong
 indications that the future need will arise.
@@ -98,15 +98,15 @@ And what happens to the carefully crafted generic solution?&lt;/p&gt;
 &lt;p&gt;One of the buzzwords we often hear is system scalability, but making things generic from the beginning isn’t always the best choice, nor does
 it necessarily mean the system will be scalable. A solution or system becomes scalable when it’s designed to accommodate future changes with minimal frustration and cost.&lt;/p&gt;
 &lt;h2 id=&quot;organization-and-collaboration&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#organization-and-collaboration&quot; aria-label=&quot;organization and collaboration permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Organization and collaboration&lt;/h2&gt;
-&lt;h4 id=&quot;agile--scrum&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#agile--scrum&quot; aria-label=&quot;agile  scrum permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&quot;Agile&quot; ≠ Scrum&lt;/h4&gt;
-&lt;p&gt;In the modern IT industry, the term &quot;Agile&quot; is often claimed simply by using one of the popular frameworks, such as &lt;a href=&quot;https://www.scrum.org/&quot;&gt;Scrum&lt;/a&gt;.
+&lt;h4 id=&quot;agile--scrum&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#agile--scrum&quot; aria-label=&quot;agile  scrum permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;“Agile” ≠ Scrum&lt;/h4&gt;
+&lt;p&gt;In the modern IT industry, the term “Agile” is often claimed simply by using one of the popular frameworks, such as &lt;a href=&quot;https://www.scrum.org/&quot;&gt;Scrum&lt;/a&gt;.
 Scrum is just one of the frameworks that can facilitate the application of Agile principles, but it’s neither the only one nor sufficient on its own.&lt;/p&gt;
 &lt;p&gt;In fact, adopting Scrum doesn’t guarantee that the values of the &lt;a href=&quot;https://agilemanifesto.org/&quot;&gt;Manifesto for Agile Software Development&lt;/a&gt; are embraced.
 For example, if a team uses the board as the framework prescribes, organizes work in Sprints with related ceremonies, but fails to communicate directly,
-overuses scheduled meetings, doesn’t interact with customers, prioritizes &quot;tools over individuals,&quot; resists changes to predefined plans,
+overuses scheduled meetings, doesn’t interact with customers, prioritizes “tools over individuals,” resists changes to predefined plans,
 or, most importantly, doesn’t deliver working software frequently (continuous delivery of valuable software),
 then the framework becomes just another tool disconnected from Agile’s original intent.&lt;/p&gt;
-&lt;p&gt;I mention Agile’s &quot;original idea&quot; deliberately, because the manifesto was created many years ago, and I recognize that the industry has evolved significantly since then, along with its organizational challenges.
+&lt;p&gt;I mention Agile’s “original idea” deliberately, because the manifesto was created many years ago, and I recognize that the industry has evolved significantly since then, along with its organizational challenges.
 While the manifesto’s original focus was more on software development (as its title suggests and as we should always keep in mind), it has gradually been extended to encompass entire company cultures.
 I believe this can be seen as a positive thing, demonstrating how powerful the manifesto’s principles are in shaping organizational thinking.
 However, it can also become a facade used to appear more appealing or to showcase specific frameworks without truly embracing the manifesto’s core ideas.&lt;/p&gt;
@@ -120,7 +120,7 @@ or because of other specific team dynamics.&lt;/p&gt;
 &lt;p&gt;Even though this is usually done with good intentions, it can sometimes have the opposite effect: people join meetings even
 if they’re not directly involved or interested, simply because the event is scheduled.
 As a result, time that could have been spent more productively is lost. Additionally, meetings can become monologues
-or discussions about topics that don’t justify the time spent on them (people&apos;s precious time).
+or discussions about topics that don’t justify the time spent on them (people’s precious time).
 Often, these issues could be resolved with just a few messages on Slack or similar tools.&lt;/p&gt;
 &lt;p&gt;Effective communication doesn’t mean frequent, scheduled, in-person meetings. Instead, it means being clear and focused on the goal of the conversation,
 whether written or spoken.
@@ -135,9 +135,9 @@ I recommend reading about Marco Polita’s real-world experience as a team lead 
 &lt;li&gt;&lt;a href=&quot;https://www.marcopolita.me/blog/2022/09/02/Daily-Journal.html&quot;&gt;Why remote Daily Sucks - Try remote Journal&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.marcopolita.me/blog/2023/02/13/remote-journal_follow-up.html&quot;&gt;Remote Journal - A year after&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;working-on-things-you-dont-own-respect-the-owners-choices&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#working-on-things-you-dont-own-respect-the-owners-choices&quot; aria-label=&quot;working on things you dont own respect the owners choices permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Working on Things You Don&apos;t Own: Respect the Owner&apos;s Choices&lt;/h4&gt;
-&lt;p&gt;&quot;Hey friend, I opened a PR on your repo, and I saw your review comment saying to align with your team standard, but honestly,
-I think that’s not the way to go…&quot;&lt;/p&gt;
+&lt;h4 id=&quot;working-on-things-you-dont-own-respect-the-owners-choices&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#working-on-things-you-dont-own-respect-the-owners-choices&quot; aria-label=&quot;working on things you dont own respect the owners choices permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Working on Things You Don’t Own: Respect the Owner’s Choices&lt;/h4&gt;
+&lt;p&gt;“Hey friend, I opened a PR on your repo, and I saw your review comment saying to align with your team standard, but honestly,
+I think that’s not the way to go…”&lt;/p&gt;
 &lt;p&gt;Sound familiar?&lt;/p&gt;
 &lt;p&gt;Everyone has their own values, principles, and standards. As humans, we often think our way is the best because it’s backed by our experience,
 effort, research, and thoughtful debates.&lt;/p&gt;
@@ -155,7 +155,7 @@ and know when to let go if the return isn’t worth the investment.&lt;/p&gt;
 &lt;h2 id=&quot;tests-my-precious&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tests-my-precious&quot; aria-label=&quot;tests my precious permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tests, my precious!&lt;/h2&gt;
 &lt;p&gt;Tests are a vital part of the software development process. They are often sacrificed in favor of short-term delivery timelines,
 but what’s sometimes overlooked is the time, frustration, and costs they save in the long run often far outweighing the time spent implementing them.&lt;/p&gt;
-&lt;p&gt;I couldn’t resist writing at least two points about it :innocent:&lt;/p&gt;
+&lt;p&gt;I couldn’t resist writing at least two points about it 😇&lt;/p&gt;
 &lt;h4 id=&quot;you-dont-need-to-test-every-single-function&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#you-dont-need-to-test-every-single-function&quot; aria-label=&quot;you dont need to test every single function permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;You Don’t Need to Test Every Single Function&lt;/h4&gt;
 &lt;p&gt;There’s a common misconception about testing: when we talk about it, we often think of unit tests and end up testing every single function.
 This happens when developers lose focus on the real goal of tests: ensuring that business requirements are met and that the code behaves as expected.
@@ -174,49 +174,131 @@ Writing tests solely to increase coverage isn’t meaningful and can lead to the
 For example, I’ve sometimes seen codebases with high coverage percentages, but upon closer inspection,
 the tests didn’t verify anything particularly useful or relevant to the actual requirements.&lt;/p&gt;
 &lt;p&gt;In my experience, after writing integration tests for a use case, tools often fail to understand the testing approach and suggest covering unnecessary parts with unit tests.
-And guess what? Red pipeline :red_circle:. So, how do you fix it? You either write useless tests or hack your way around it with annotations or configurations.
+And guess what? Red pipeline 🔴. So, how do you fix it? You either write useless tests or hack your way around it with annotations or configurations.
 This happens because the tools can’t determine whether the tests are meaningful or understand the context and reasoning behind them.
-(Who knows what AI might do for us in the future? :robot:)&lt;/p&gt;
+(Who knows what AI might do for us in the future? 🤖)&lt;/p&gt;
 &lt;p&gt;So, what’s the takeaway?
 I believe code coverage can be useful but shouldn’t be the goal. It should instead be the natural consequence of writing tests
 with a requirement-first mindset.
 While the percentage output can provide insights, it must be interpreted cautiously to avoid slowing down progress without
 real benefits or pushing teams in the wrong direction.&lt;/p&gt;
 &lt;h2 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;The main idea was to take a snapshot of some of my thoughts. I&apos;m quite sure that some of them will change or at least
+&lt;p&gt;The main idea was to take a snapshot of some of my thoughts. I’m quite sure that some of them will change or at least
 will evolve a bit.
-I&apos;m curious to look back at this article in the future and see how my opinions have developed.&lt;/p&gt;
+I’m curious to look back at this article in the future and see how my opinions have developed.&lt;/p&gt;
 &lt;p&gt;Feel free to contact me if you like to leave your opinion or discuss any of the topics.&lt;/p&gt;
-&lt;p&gt;Cheers!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[I believe in Full Stack skills, not in Full Stack Engineering]]></title><description><![CDATA[Full Stack Engineering First, let's try to give a couple of basic and simplified definitions of what is meant by Tech Stack and Full Stack…]]></description><link>https://mircoporetti.me/blog/full-stack/</link><guid isPermaLink="false">https://mircoporetti.me/blog/full-stack/</guid><pubDate>Sun, 09 Oct 2022 19:09:12 GMT</pubDate><content:encoded>&lt;h2 id=&quot;full-stack-engineering&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#full-stack-engineering&quot; aria-label=&quot;full stack engineering permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Full Stack Engineering&lt;/h2&gt;
-&lt;p&gt;First, let&apos;s try to give a couple of basic and simplified definitions of what is meant by Tech Stack and Full Stack Engineer.&lt;/p&gt;
-&lt;p&gt;A &quot;Tech stack&quot; is a set of technologies used together to build a software product.&lt;/p&gt;
+&lt;p&gt;Cheers!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[I believe in Full Stack skills, not in Full Stack Engineering]]></title><description><![CDATA[Full Stack Engineering First, let’s try to give a couple of basic and simplified definitions of what is meant by Tech Stack and Full Stack…]]></description><link>https://mircoporetti.me/blog/full-stack/</link><guid isPermaLink="false">https://mircoporetti.me/blog/full-stack/</guid><pubDate>Sun, 09 Oct 2022 19:09:12 GMT</pubDate><content:encoded>&lt;h2 id=&quot;full-stack-engineering&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#full-stack-engineering&quot; aria-label=&quot;full stack engineering permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Full Stack Engineering&lt;/h2&gt;
+&lt;p&gt;First, let’s try to give a couple of basic and simplified definitions of what is meant by Tech Stack and Full Stack Engineer.&lt;/p&gt;
+&lt;p&gt;A “Tech stack” is a set of technologies used together to build a software product.&lt;/p&gt;
 &lt;p&gt;A Full Stack Engineer could be defined in many ways but nowadays, the term is commonly referred to as an engineer
 who has enough knowledge and experience to efficiently work on the entire stack of an application,
 from Frontend to Backend and Infrastructure.&lt;/p&gt;
 &lt;h3 id=&quot;origins&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#origins&quot; aria-label=&quot;origins permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Origins&lt;/h3&gt;
-&lt;p&gt;Years ago there wasn&apos;t a real distinction between Frontend, Backend, or whatever engineers: they were simply Software engineers.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;fullstack.jpg&quot; alt=&quot;Figure 1&quot; title=&quot;Full Stack Engineer&quot;&gt;&lt;/p&gt;
-&lt;p&gt;In the last decades, the &quot;Full Stack Engineer&quot; term became popular thanks also to some web development technologies and
+&lt;p&gt;Years ago there wasn’t a real distinction between Frontend, Backend, or whatever engineers: they were simply Software engineers.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 2995px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/e208e273250c6628adbf8329e1e660fd/18cf4/fullstack.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAB2aWVkuECv//EABoQAAICAwAAAAAAAAAAAAAAAAECAxEAEBL/2gAIAQEAAQUCkuonbrQQCXP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAABEAASAiJB/9oACAEBAAY/AtZXMh26V//EABoQAQADAAMAAAAAAAAAAAAAAAEAESEQMVH/2gAIAQEAAT8hvqq9mqKllcMagw1h1P/aAAwDAQACAAMAAAAQhw//xAAWEQEBAQAAAAAAAAAAAAAAAAABERD/2gAIAQMBAT8QVpM//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QJ//EABoQAAIDAQEAAAAAAAAAAAAAAAERACExYfD/2gAIAQEAAT8QoyTtxTBpQSFy9o7NgNiPwmMsnyEGP//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/blog/static/e208e273250c6628adbf8329e1e660fd/2899c/fullstack.webp 1250w,
+/blog/static/e208e273250c6628adbf8329e1e660fd/a3bc4/fullstack.webp 2500w,
+/blog/static/e208e273250c6628adbf8329e1e660fd/0907a/fullstack.webp 2995w&quot;
+              sizes=&quot;(max-width: 2995px) 100vw, 2995px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/blog/static/e208e273250c6628adbf8329e1e660fd/76902/fullstack.jpg 1250w,
+/blog/static/e208e273250c6628adbf8329e1e660fd/44ecf/fullstack.jpg 2500w,
+/blog/static/e208e273250c6628adbf8329e1e660fd/18cf4/fullstack.jpg 2995w&quot;
+            sizes=&quot;(max-width: 2995px) 100vw, 2995px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/blog/static/e208e273250c6628adbf8329e1e660fd/18cf4/fullstack.jpg&quot;
+            alt=&quot;Figure 1&quot;
+            title=&quot;Full Stack Engineer&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In the last decades, the “Full Stack Engineer” term became popular thanks also to some web development technologies and
 their stacks that became mainstream, like LAMP (Linux, Apache, MySql, Php) or MEAN (MongoDB, Express, AngularJs, Node.js)
 which contributed to the reunification of the role in the business world.
 MEAN stack had a relevant role: both Backend and Frontend developers could start to work on the other side using the same
 programming language (in this case Javascript, and Typescript later). Its popularity put even more emphasis on the term “Stack”.&lt;/p&gt;
-&lt;p&gt;Now that we&apos;ve given a bit of an overview of Full Stack&apos;s common meaning, let&apos;s go gradually to the point.&lt;/p&gt;
+&lt;p&gt;Now that we’ve given a bit of an overview of Full Stack’s common meaning, let’s go gradually to the point.&lt;/p&gt;
 &lt;h2 id=&quot;versatility-is-a-skill-not-a-requirement&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#versatility-is-a-skill-not-a-requirement&quot; aria-label=&quot;versatility is a skill not a requirement permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Versatility is a skill, not a requirement&lt;/h2&gt;
 &lt;p&gt;Nowadays, it’s appreciated to have knowledge for being able to touch different parts of the systems, the so-called Full Stack skills,
 and it’s definitely something important because you can help your team in many ways, and you can better understand the
 entire cycle of your product having a more clear picture of the processes.&lt;/p&gt;
-&lt;p&gt;Anyway being a good developer isn&apos;t a synonym for &quot;Developer who knows everything&quot;. &lt;br /&gt;
+&lt;p&gt;Anyway being a good developer isn’t a synonym for “Developer who knows everything”. &lt;br /&gt;
 Who decides if you are a good developer? &lt;br /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;good_dev.jpg&quot; alt=&quot;Figure 2&quot; title=&quot;Good Developer&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 2995px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/5651dde3d46139143d6e6e47a98fa949/18cf4/good_dev.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAAB7UmAKLX/xAAaEAEBAQADAQAAAAAAAAAAAAACAQMABBIR/9oACAEBAAEFAoreZaeyuzBcVWcj5Md+f//EABcRAQADAAAAAAAAAAAAAAAAAAABEkH/2gAIAQMBAT8B1WX/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFX/8QAHBAAAQQDAQAAAAAAAAAAAAAAAAECEXEQEjGR/9oACAEBAAY/AuQLZDmP8NlFi8f/xAAbEAEAAgIDAAAAAAAAAAAAAAABABExUSFBYf/aAAgBAQABPyEG7j2MvKIz3EtwasMsDzA38aif/9oADAMBAAIAAwAAABC0z//EABkRAQACAwAAAAAAAAAAAAAAAAEAESExQf/aAAgBAwEBPxByE7Gzc//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQIBAT8QHjBy/8QAHhABAAIBBAMAAAAAAAAAAAAAAQARITFBUYFhcbH/2gAIAQEAAT8QBBQsMXuHOtyXkdMMv3qxyPEyYaaMGsCbF7e0z8gQNqxaT//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/blog/static/5651dde3d46139143d6e6e47a98fa949/2899c/good_dev.webp 1250w,
+/blog/static/5651dde3d46139143d6e6e47a98fa949/a3bc4/good_dev.webp 2500w,
+/blog/static/5651dde3d46139143d6e6e47a98fa949/0907a/good_dev.webp 2995w&quot;
+              sizes=&quot;(max-width: 2995px) 100vw, 2995px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/blog/static/5651dde3d46139143d6e6e47a98fa949/76902/good_dev.jpg 1250w,
+/blog/static/5651dde3d46139143d6e6e47a98fa949/44ecf/good_dev.jpg 2500w,
+/blog/static/5651dde3d46139143d6e6e47a98fa949/18cf4/good_dev.jpg 2995w&quot;
+            sizes=&quot;(max-width: 2995px) 100vw, 2995px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/blog/static/5651dde3d46139143d6e6e47a98fa949/18cf4/good_dev.jpg&quot;
+            alt=&quot;Figure 2&quot;
+            title=&quot;Good Developer&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;You could work on Frontend, Backend, or Infrastructure without being involved in the others branches of engineering,
-excelling in your specific field. Wouldn&apos;t you be good enough?&lt;/p&gt;
-&lt;p&gt;That&apos;s my honest and personal opinion: an engineer who is great in his/her field without a lot of knowledge of the others
+excelling in your specific field. Wouldn’t you be good enough?&lt;/p&gt;
+&lt;p&gt;That’s my honest and personal opinion: an engineer who is great in his/her field without a lot of knowledge of the others
 is not better than an Engineer who can touch everything but with mediocre skills in everything.&lt;/p&gt;
 &lt;p&gt;Why?&lt;/p&gt;
-&lt;p&gt;It&apos;s all about QUALITY.&lt;/p&gt;
+&lt;p&gt;It’s all about QUALITY.&lt;/p&gt;
 &lt;h2 id=&quot;the-importance-of-focusing&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-importance-of-focusing&quot; aria-label=&quot;the importance of focusing permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The importance of focusing&lt;/h2&gt;
-&lt;p&gt;I&apos;ve always been a Backend person since university.
+&lt;p&gt;I’ve always been a Backend person since university.
 The first time I touched a Frontend framework during my first working experience I started to have an interest in Front End
 development.&lt;/p&gt;
 &lt;p&gt;In that period I felt like someone that is looking for a certain genre of movie to watch on his favorite streaming platform,
@@ -225,22 +307,63 @@ for clicking the play button.
 Every time I started to go deeper into a technology, a type of architecture, or whatever there was something else fascinating that
 kept my attention, and I changed my plans.&lt;/p&gt;
 &lt;p&gt;During my study time, I was confused about what to study and after finishing a course or some basic beginner project
-I jumped to another topic that often wasn&apos;t even much related.&lt;br /&gt;
-I didn&apos;t go into every topic well because I was more interested in knowing a bit of everything.
-That&apos;s perfect for learning many things, but I noticed that I was struggling to keep up with the technologies, concepts,
-approaches, etc. in every single sector, and you know... our field is huge, full of new technologies that are born every day.&lt;/p&gt;
-&lt;p&gt;I think it&apos;s quite impossible to be a person who knows everything really well.&lt;br /&gt;
-I&apos;m not saying that no one can do it: for sure
-the Diego Armando Maradona or the Einstein of the situation exists in every field, but it&apos;s not the rule!&lt;/p&gt;
-&lt;h3 id=&quot;focus-focus-focus&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#focus-focus-focus&quot; aria-label=&quot;focus focus focus permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&quot;Focus, Focus... Focus!&quot;&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;focus.jpg&quot; alt=&quot;Figure 3&quot; title=&quot;Focus&quot;&gt;&lt;/p&gt;
+I jumped to another topic that often wasn’t even much related.&lt;br /&gt;
+I didn’t go into every topic well because I was more interested in knowing a bit of everything.
+That’s perfect for learning many things, but I noticed that I was struggling to keep up with the technologies, concepts,
+approaches, etc. in every single sector, and you know… our field is huge, full of new technologies that are born every day.&lt;/p&gt;
+&lt;p&gt;I think it’s quite impossible to be a person who knows everything really well.&lt;br /&gt;
+I’m not saying that no one can do it: for sure
+the Diego Armando Maradona or the Einstein of the situation exists in every field, but it’s not the rule!&lt;/p&gt;
+&lt;h3 id=&quot;focus-focus-focus&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#focus-focus-focus&quot; aria-label=&quot;focus focus focus permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;“Focus, Focus… Focus!”&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 2995px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/90980ac4c2f9f79eb0c80967352d898f/18cf4/focus.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIFAQT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAABtJvCmkMK/8QAGhABAAIDAQAAAAAAAAAAAAAAAQISBBExIv/aAAgBAQABBQKSjdtFsa94fDn/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAbEAACAQUAAAAAAAAAAAAAAAAAAhEBECExYf/aAAgBAQAGPwKkHCRh8aaLf//EABsQAQACAgMAAAAAAAAAAAAAAAEAESExQVFh/9oACAEBAAE/IRoWcwTT13NarMoh3UzwvBxAAAon/9oADAMBAAIAAwAAABDXH//EABcRAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQMBAT8QTHLh/8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQIBAT8Qp//EABsQAQEAAwADAAAAAAAAAAAAAAERACExQWHw/9oACAEBAAE/EDAr1dnxk+ACgZHvvMveQJctVmyKdI8xDoqBIYNFw0QGgIZ//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/blog/static/90980ac4c2f9f79eb0c80967352d898f/2899c/focus.webp 1250w,
+/blog/static/90980ac4c2f9f79eb0c80967352d898f/a3bc4/focus.webp 2500w,
+/blog/static/90980ac4c2f9f79eb0c80967352d898f/0907a/focus.webp 2995w&quot;
+              sizes=&quot;(max-width: 2995px) 100vw, 2995px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/blog/static/90980ac4c2f9f79eb0c80967352d898f/76902/focus.jpg 1250w,
+/blog/static/90980ac4c2f9f79eb0c80967352d898f/44ecf/focus.jpg 2500w,
+/blog/static/90980ac4c2f9f79eb0c80967352d898f/18cf4/focus.jpg 2995w&quot;
+            sizes=&quot;(max-width: 2995px) 100vw, 2995px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/blog/static/90980ac4c2f9f79eb0c80967352d898f/18cf4/focus.jpg&quot;
+            alt=&quot;Figure 3&quot;
+            title=&quot;Focus&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;I decided at a certain point to focus more on what I liked and that was more akin to my attitude, and Backend, without
-precluding the joy of learning and touching also Frontend, DevOps stuff, and so on...&lt;/p&gt;
-&lt;p&gt;I&apos;m going on with this approach even today.&lt;br /&gt;
-At this specific period for example I’m learning a lot of “DevOps-related things&quot; and sometimes even some Frontend concept
+precluding the joy of learning and touching also Frontend, DevOps stuff, and so on…&lt;/p&gt;
+&lt;p&gt;I’m going on with this approach even today.&lt;br /&gt;
+At this specific period for example I’m learning a lot of “DevOps-related things” and sometimes even some Frontend concept
 working with my Team thanks also to more expert colleagues in those fields, but I continue to consider myself a
 “Software Engineer focused on the Backend dark side with a strong interest in learning even non-Backend things when useful
-and possible” but with clear priorities :smile:.&lt;/p&gt;
+and possible” but with clear priorities 😄.&lt;/p&gt;
 &lt;p&gt;Focusing on something and setting yourself clear goals is the best way to improve the quality of what you do
 because investing more time in it will allow you to build your experience on what you choose, improving day by day and
 keeping up with its evolution. &lt;br /&gt;
@@ -248,24 +371,24 @@ This is not valid only in Software Engineering.&lt;/p&gt;
 &lt;p&gt;If you are even able to improve in other fields is for sure a great value, but it should be considered a plus that makes you more
 flexible and valuable, not the main goal that makes you lose your specialization.&lt;/p&gt;
 &lt;h2 id=&quot;so-whats-the-problem-behind-full-stack-engineering&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#so-whats-the-problem-behind-full-stack-engineering&quot; aria-label=&quot;so whats the problem behind full stack engineering permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;So what’s the problem behind Full Stack Engineering?&lt;/h2&gt;
-&lt;p&gt;The problem is not the person&apos;s interest in being more versatile, but it&apos;s the companies&apos; approach to that, which
+&lt;p&gt;The problem is not the person’s interest in being more versatile, but it’s the companies’ approach to that, which
 leads developers to think that the important thing is to know a little of everything, for being more desirable on the market,
 losing the focus on their own specialization.&lt;/p&gt;
 &lt;p&gt;It happens that Companies look for Full Stack Engineers, in order to hire fewer people who will have more responsibilities in different
 parts of the system.
 Sometimes they give less importance to one role over another, underestimating the impact of not having specialised people on the product.
-The reason is quite simple: it&apos;s cheaper.&lt;/p&gt;
-&lt;p&gt;Yes, it&apos;s true, that&apos;s an economical advantage initially. But what does often happen after some time?&lt;br /&gt;
+The reason is quite simple: it’s cheaper.&lt;/p&gt;
+&lt;p&gt;Yes, it’s true, that’s an economical advantage initially. But what does often happen after some time?&lt;br /&gt;
 As the applications grow, there will be more functionalities, many of them will change, and the complexity will change.
 The initial choice will become probably a costly choice in the future because each part of the system was designed with
 less experience and care compared to what a specialised engineer would have.&lt;/p&gt;
 &lt;p&gt;It’s a quality choice, and the lack of quality of a product will make its maintenance and its evolution more expensive in the future.&lt;/p&gt;
 &lt;p&gt;When a company only hires “Full Stack Engineers”, I hear a bell ringing right away. &lt;br /&gt;
-At least it is worth asking a few questions about the reasons behind the choice. :smile:&lt;/p&gt;
+At least it is worth asking a few questions about the reasons behind the choice. 😄&lt;/p&gt;
 &lt;h2 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;I believe in focusing on a field with the attitude to develop other skills as an added value,
 not in knowing everything superficially without clear goals.&lt;/p&gt;
-&lt;p&gt;I believe in &quot;Full Stack skills&quot; as something that completes you, not in Full Stack Engineering as an all-in-one field or
+&lt;p&gt;I believe in “Full Stack skills” as something that completes you, not in Full Stack Engineering as an all-in-one field or
 as a role.&lt;/p&gt;
 &lt;h6 id=&quot;credits&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#credits&quot; aria-label=&quot;credits permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Credits:&lt;/h6&gt;
 &lt;p&gt;&lt;span style=&quot;font-size:0.7em;&quot;&gt;&lt;a href=&quot;https://www.freepik.com/free-vector/man-who-thinks-idea-is-admired-by-thumbs-up_11879378.htm#query=good&amp;#x26;from_query=I%20m%20good&amp;#x26;position=4&amp;#x26;from_view=search&amp;#x26;track=sph&quot;&gt;Image by jcomp from Freepik&lt;/a&gt;&lt;/span&gt;&lt;/br&gt;
@@ -273,8 +396,8 @@ as a role.&lt;/p&gt;
 &lt;span style=&quot;font-size:0.7em;&quot;&gt;&lt;a href=&quot;https://www.freepik.com/free-vector/programmer-working-isometric-style_4911005.htm#query=software%20engineer&amp;#x26;position=27&amp;#x26;from_view=search&amp;#x26;track=sph&quot;&gt;Image by pikisuperstar from Freepik&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TDD Who?]]></title><description><![CDATA[Test Driven Development TDD is an approach for driving development by testing with the goal of a clean and simple design. While practicing…]]></description><link>https://mircoporetti.me/blog/tdd/</link><guid isPermaLink="false">https://mircoporetti.me/blog/tdd/</guid><pubDate>Sun, 18 Sep 2022 23:01:12 GMT</pubDate><content:encoded>&lt;h2 id=&quot;test-driven-development&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#test-driven-development&quot; aria-label=&quot;test driven development permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Test Driven Development&lt;/h2&gt;
 &lt;p&gt;TDD is an approach for driving development by testing with the goal of a clean and simple design. While practicing TDD
 the focus is on the requirements. It’s about development and design, not simply testing or coverage.&lt;/p&gt;
-&lt;p&gt;That&apos;s a crucial point that in my opinion makes Test Driven Development   different and more valuable than generic
-&quot;Test First&quot;: TDD is an iterative process but also a mental different way to think about the problems,
+&lt;p&gt;That’s a crucial point that in my opinion makes Test Driven Development   different and more valuable than generic
+“Test First”: TDD is an iterative process but also a mental different way to think about the problems,
 based on needs not on already thought solutions.&lt;/p&gt;
 &lt;p&gt;Every iteration could be described as follows:&lt;/p&gt;
 &lt;ul&gt;
@@ -282,7 +405,48 @@ based on needs not on already thought solutions.&lt;/p&gt;
 &lt;li&gt;GREEN: Create the minimum code to make it pass&lt;/li&gt;
 &lt;li&gt;REFACTOR: Remove duplication and improve your code without changing its behavior&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;tdd.jpg&quot; alt=&quot;Figure 1&quot; title=&quot;TDD cycle&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 2996px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/bcbc0fcce373656d41498674245d8fd8/cc6de/tdd.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAEDBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAB2oLLmmMof//EABkQAAMBAQEAAAAAAAAAAAAAAAECEQASEP/aAAgBAQABBQJmmU8YGjhbPP/EABYRAAMAAAAAAAAAAAAAAAAAABARIf/aAAgBAwEBPwFwf//EABYRAQEBAAAAAAAAAAAAAAAAABEBEP/aAAgBAgEBPwGrn//EABsQAAIBBQAAAAAAAAAAAAAAAAARARASITFR/9oACAEBAAY/Atod8y+jgazX/8QAGRABAQEBAQEAAAAAAAAAAAAAAREAITFB/9oACAEBAAE/IbYkYJRfGBYpuiNfZg9wQhv/2gAMAwEAAgADAAAAEEQP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QBH//xAAWEQEBAQAAAAAAAAAAAAAAAAABADH/2gAIAQIBAT8QGDF//8QAGhABAAMBAQEAAAAAAAAAAAAAAQARIUExUf/aAAgBAQABPxA8Fm1S4AN5bRX3PIcEviRXYltFsGaUecIBAAcJ/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/blog/static/bcbc0fcce373656d41498674245d8fd8/2899c/tdd.webp 1250w,
+/blog/static/bcbc0fcce373656d41498674245d8fd8/a3bc4/tdd.webp 2500w,
+/blog/static/bcbc0fcce373656d41498674245d8fd8/aa4b5/tdd.webp 2996w&quot;
+              sizes=&quot;(max-width: 2996px) 100vw, 2996px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/blog/static/bcbc0fcce373656d41498674245d8fd8/76902/tdd.jpg 1250w,
+/blog/static/bcbc0fcce373656d41498674245d8fd8/44ecf/tdd.jpg 2500w,
+/blog/static/bcbc0fcce373656d41498674245d8fd8/cc6de/tdd.jpg 2996w&quot;
+            sizes=&quot;(max-width: 2996px) 100vw, 2996px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/blog/static/bcbc0fcce373656d41498674245d8fd8/cc6de/tdd.jpg&quot;
+            alt=&quot;Figure 1&quot;
+            title=&quot;TDD cycle&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h4 id=&quot;how-tests-should-be&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#how-tests-should-be&quot; aria-label=&quot;how tests should be permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How tests should be?&lt;/h4&gt;
 &lt;p&gt;Some popular characters (one for all Kent Beck, author of TDD by Example) expressed some rules about how tests should be:&lt;/p&gt;
 &lt;ul&gt;
@@ -294,7 +458,7 @@ based on needs not on already thought solutions.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;my-little-journey-with-tdd&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#my-little-journey-with-tdd&quot; aria-label=&quot;my little journey with tdd permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;My little journey with TDD&lt;/h2&gt;
 &lt;p&gt;My first meeting with Test Driven Development was in 2017 when I started getting interested in the topic after reading
-some articles and following some conferences. Only later did I read the book &quot;TDD by example&quot; by Kent Beck.&lt;/p&gt;
+some articles and following some conferences. Only later did I read the book “TDD by example” by Kent Beck.&lt;/p&gt;
 &lt;p&gt;I started putting it into practice at work 4 years ago, thanks also to some more experienced colleagues and
 to our constant desire to grow together.&lt;/p&gt;
 &lt;p&gt;I think that practicing TDD is a process that requires continuous practical experience and I feel that every
@@ -303,7 +467,7 @@ day I can still learn something about that.&lt;/p&gt;
 &lt;p&gt;Why do I like Test Driven Development?
 Here is some reason:&lt;/p&gt;
 &lt;h6 id=&quot;incremental-and-small-iterations&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#incremental-and-small-iterations&quot; aria-label=&quot;incremental and small iterations permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Incremental and small iterations&lt;/h6&gt;
-&lt;p&gt;TDD lets the design emerge exploring a problem iteratively and incrementally. That&apos;s an important aspect that helps me
+&lt;p&gt;TDD lets the design emerge exploring a problem iteratively and incrementally. That’s an important aspect that helps me
 in tackling the problems without overthinking the final solution especially when they are complex.
 Furthermore, it helps me focus on a single problem at a time.&lt;/p&gt;
 &lt;h6 id=&quot;simplicity-and-focus-on-requirements&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#simplicity-and-focus-on-requirements&quot; aria-label=&quot;simplicity and focus on requirements permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Simplicity and focus on requirements&lt;/h6&gt;
@@ -318,23 +482,64 @@ existing use-cases, inferring the requirements from the existing code and focusi
 without caring about every internal class.
 In this way, the first tests became our requirements, and they were our source of feedback for a safe refactoring of the domain logic.
 Proceeding with the refactoring we added other tests that were useful also for the new design of the code that, of course, can change based on personal experience and knowledge,
-but we were sure that in any case, it couldn&apos;t be that bad! :smile:&lt;/p&gt;
+but we were sure that in any case, it couldn’t be that bad! 😄&lt;/p&gt;
 &lt;p&gt;What does TDD have to do with it?
 We did it as we would do it without having an existing code. We did it as we would do it with a Test Driven approach,
 and that helped a lot!&lt;/p&gt;
 &lt;h6 id=&quot;different-mindset&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#different-mindset&quot; aria-label=&quot;different mindset permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Different mindset&lt;/h6&gt;
 &lt;p&gt;Dealing with legacy code is common. It happened sometimes that I wanted to write tests for it and while doing that
-there was some difficulty due to the existing design of the code. That&apos;s usually a hint that something has to be changed.
+there was some difficulty due to the existing design of the code. That’s usually a hint that something has to be changed.
 An example of a recurrent scenario in my experience is when I met a poor separation between the infrastructure (e.g. persistence)
-and the domain that was evidenced by an impossibility in writing simple, clear, and &quot;not frustrating&quot; tests.
+and the domain that was evidenced by an impossibility in writing simple, clear, and “not frustrating” tests.
 That lack of separation of responsibility resulted in tests that were long and full of mocks. So what was it telling me?&lt;/p&gt;
 &lt;p&gt;REFACTOOOOR!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;hammer.jpg&quot; alt=&quot;Figure 2&quot; title=&quot;Refactoring&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 2996px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/dfdf2629b3aaf1117e27c0434598f920/cc6de/hammer.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAB2VPrFtJKj//EABkQAAMAAwAAAAAAAAAAAAAAAAABAhASMf/aAAgBAQABBQKrHdC45Ncf/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BCf/EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPwFXZ//EABgQAAIDAAAAAAAAAAAAAAAAAAACEiBB/9oACAEBAAY/AhY7X//EABkQAAMBAQEAAAAAAAAAAAAAAAABESExUf/aAAgBAQABPyGFx5o94NGJMCLdEl6xYf/aAAwDAQACAAMAAAAQlC//xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QANn/xAAWEQEBAQAAAAAAAAAAAAAAAAAAATH/2gAIAQIBAT8QiJj/xAAcEAEAAwACAwAAAAAAAAAAAAABABEhQVFhcdH/2gAIAQEAAT8QKswaOYOzdsNo7hAJTy2x+4arIocfr5BQCf/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/blog/static/dfdf2629b3aaf1117e27c0434598f920/2899c/hammer.webp 1250w,
+/blog/static/dfdf2629b3aaf1117e27c0434598f920/a3bc4/hammer.webp 2500w,
+/blog/static/dfdf2629b3aaf1117e27c0434598f920/aa4b5/hammer.webp 2996w&quot;
+              sizes=&quot;(max-width: 2996px) 100vw, 2996px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/blog/static/dfdf2629b3aaf1117e27c0434598f920/76902/hammer.jpg 1250w,
+/blog/static/dfdf2629b3aaf1117e27c0434598f920/44ecf/hammer.jpg 2500w,
+/blog/static/dfdf2629b3aaf1117e27c0434598f920/cc6de/hammer.jpg 2996w&quot;
+            sizes=&quot;(max-width: 2996px) 100vw, 2996px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/blog/static/dfdf2629b3aaf1117e27c0434598f920/cc6de/hammer.jpg&quot;
+            alt=&quot;Figure 2&quot;
+            title=&quot;Refactoring&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;TDD is a tool that gives us feedback on the quality of the design.
 The example above was not directly related to it but having some experience with this approach can change your way of thinking
 and it can be exploited for recognizing smells when you need to write tests on an existing codebase because if the design
 is poor the tests will be difficult to write (and vice versa). If that happens it will be the right moment to refactor!
-That&apos;s super cool but pay attention: if you don&apos;t do it from that moment you become an accomplice. :wink:&lt;/p&gt;
+That’s super cool but pay attention: if you don’t do it from that moment you become an accomplice. 😉&lt;/p&gt;
 &lt;h4 id=&quot;mocks&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mocks&quot; aria-label=&quot;mocks permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Mocks&lt;/h4&gt;
 &lt;p&gt;Mocks are a powerful tool used for controlling the behavior of a component inside your test. They are helpful in some
 situations but they can be abused and become a smell. When the test is full of mocks probably the design is poor. If I
@@ -346,24 +551,65 @@ start of the learning process;&lt;/li&gt;
 &lt;li&gt;Mocks are often a way to be able to write tests on an already existing poor design without spending time on refactoring.
 If you focus on requirements and not on classes when writing tests, likely you will tend to mock less.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I often mock boundaries if needed, mainly when I&apos;m specifically testing the domain of the problem which requires
+&lt;p&gt;I often mock boundaries if needed, mainly when I’m specifically testing the domain of the problem which requires
 interactions with the infrastructure.&lt;/p&gt;
 &lt;h4 id=&quot;outside-in-vs-inside-out&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#outside-in-vs-inside-out&quot; aria-label=&quot;outside in vs inside out permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Outside in vs Inside out&lt;/h4&gt;
 &lt;p&gt;There is an endless debate on starting from the outside or the inside when you start your TDD cycle.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;gladiators.jpg&quot; alt=&quot;Figure 3&quot; title=&quot;Outside in vs Inside out&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Kent Beck wrote something like this: &quot;Choose a test that teaches you something valuable and that you can write&quot;.
-A good idea could be to start from the most obscure and valuable part of the problem because it&apos;s probably the one
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 2995px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/281736d9cfc447ccc28001acb166ffee/18cf4/gladiators.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAHtNICLGf/EABkQAQADAQEAAAAAAAAAAAAAAAIAAREQEv/aAAgBAQABBQJLIlCqVZPPP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPwGlf//EABcQAQEBAQAAAAAAAAAAAAAAAAEAESD/2gAIAQEABj8CIbTj/8QAGRABAAMBAQAAAAAAAAAAAAAAAQARMUFh/9oACAEBAAE/IWdDXZQBnScnsStwHsCip//aAAwDAQACAAMAAAAQyB//xAAXEQEBAQEAAAAAAAAAAAAAAAARAAEh/9oACAEDAQE/EMBtHl//xAAWEQEBAQAAAAAAAAAAAAAAAAARARD/2gAIAQIBAT8QqGf/xAAYEAEAAwEAAAAAAAAAAAAAAAABABEhMf/aAAgBAQABPxA7xoUxGBrR2oLReSlTQEeYwZVoqqWAAKDk/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/blog/static/281736d9cfc447ccc28001acb166ffee/2899c/gladiators.webp 1250w,
+/blog/static/281736d9cfc447ccc28001acb166ffee/a3bc4/gladiators.webp 2500w,
+/blog/static/281736d9cfc447ccc28001acb166ffee/0907a/gladiators.webp 2995w&quot;
+              sizes=&quot;(max-width: 2995px) 100vw, 2995px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/blog/static/281736d9cfc447ccc28001acb166ffee/76902/gladiators.jpg 1250w,
+/blog/static/281736d9cfc447ccc28001acb166ffee/44ecf/gladiators.jpg 2500w,
+/blog/static/281736d9cfc447ccc28001acb166ffee/18cf4/gladiators.jpg 2995w&quot;
+            sizes=&quot;(max-width: 2995px) 100vw, 2995px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/blog/static/281736d9cfc447ccc28001acb166ffee/18cf4/gladiators.jpg&quot;
+            alt=&quot;Figure 3&quot;
+            title=&quot;Outside in vs Inside out&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Kent Beck wrote something like this: “Choose a test that teaches you something valuable and that you can write”.
+A good idea could be to start from the most obscure and valuable part of the problem because it’s probably the one
 that will have more value for solving your problem.
 That’s not a fixed rule but a general suggestion and the right approach can be chosen depending on the situation.&lt;/p&gt;
-&lt;p&gt;&quot;...yes yes but what about you in practice?&quot;&lt;/p&gt;
+&lt;p&gt;“…yes yes but what about you in practice?”&lt;/p&gt;
 &lt;p&gt;I usually go Outside In, and then I jump into more detailed tests based on the complexity of the problem but
 it happens that I start from inside if I recognize that there is a clear aspect of the problem that is more complex.&lt;/p&gt;
 &lt;h2 id=&quot;final-thoughts&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#final-thoughts&quot; aria-label=&quot;final thoughts permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Final thoughts&lt;/h2&gt;
-&lt;p&gt;TDD helps you in building a simpler design and more maintainable code. It doesn&apos;t mean that being driven by the tests carries
+&lt;p&gt;TDD helps you in building a simpler design and more maintainable code. It doesn’t mean that being driven by the tests carries
 you to a specific design.
 In the end, YOU are responsible for a better design but this approach gives you a natural push towards the right path and what will
-emerge at the end will be for sure something better, cleaner, SOLID, and so on :smile:&lt;/p&gt;
-&lt;p&gt;Even if you won&apos;t use TDD as your “go-to” approach, having some experience with it will help you in making better
+emerge at the end will be for sure something better, cleaner, SOLID, and so on 😄&lt;/p&gt;
+&lt;p&gt;Even if you won’t use TDD as your “go-to” approach, having some experience with it will help you in making better
 decisions when you have to do that in your daily work. It will help you in recognizing smells and it will change your way
 of dealing with a problem during development.&lt;/p&gt;
 &lt;hr&gt;
@@ -397,47 +643,40 @@ As I will describe in the next section, it was really easy to do that.&lt;/p&gt;
 &lt;h4 id=&quot;install-nodejs-npm-and-gatsby-cli&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#install-nodejs-npm-and-gatsby-cli&quot; aria-label=&quot;install nodejs npm and gatsby cli permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Install Nodejs, npm and Gatsby CLI&lt;/h4&gt;
 &lt;p&gt;Install Node and npm from &lt;a href=&quot;https://nodejs.org/en/download/&quot;&gt;https://nodejs.org/en/download/&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;then&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;npm install -g gatsby-cli
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-g&lt;/span&gt; gatsby-cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h4 id=&quot;create-the-application&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#create-the-application&quot; aria-label=&quot;create the application permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Create the application&lt;/h4&gt;
 &lt;p&gt;For this project I used a very simple blog template called  “gatsby-starter-blog”.
 Source and info here &lt;a href=&quot;https://github.com/gatsbyjs/gatsby-starter-blog&quot;&gt;https://github.com/gatsbyjs/gatsby-starter-blog&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Create the app executing&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;gatsby new blog-name https://github.com/gatsbyjs/gatsby-starter-blog
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gatsby new blog-name https://github.com/gatsbyjs/gatsby-starter-blog&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;and run it&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;cd blog-name/
-gatsby develop
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; blog-name/
+gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Looked easy! :)&lt;/p&gt;
 &lt;h2 id=&quot;deploy&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#deploy&quot; aria-label=&quot;deploy permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Deploy&lt;/h2&gt;
 &lt;p&gt;In order to reach the website under domain/blog, Github Pages requires that the Github repository is created with the same name of the subpath, in my case it was “blog”.&lt;/p&gt;
 &lt;p&gt;To do that, go to the “Repositories” section on Github, click on “New” and create a public repo called “blog”.&lt;/p&gt;
 &lt;h4 id=&quot;gatsby-configuration&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gatsby-configuration&quot; aria-label=&quot;gatsby configuration permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gatsby configuration&lt;/h4&gt;
 &lt;p&gt;Add Github Pages dependency:
-npm install gh-pages --save-dev&lt;/p&gt;
+npm install gh-pages —save-dev&lt;/p&gt;
 &lt;p&gt;Add the following script into the package.json:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{
-  &quot;scripts&quot;: {
-    &quot;deploy&quot;: &quot;gatsby build --prefix-paths &amp;#x26;&amp;#x26; gh-pages -d public&quot;
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&quot;deploy&quot;: &quot;gatsby build --prefix-paths &amp;#x26;&amp;#x26; gh-pages -d public&quot;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build --prefix-paths &amp;amp;&amp;amp; gh-pages -d public&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;“deploy”: “gatsby build —prefix-paths &amp;#x26;&amp;#x26; gh-pages -d public”&lt;/p&gt;
 &lt;p&gt;After committing and pushing the changes to the main branch, create another branch called “gh-pages” and push it too.
 Go to the Github repository’s settings through Settings-&gt;Pages and set the gh-pages branch as source.&lt;/p&gt;
 &lt;p&gt;NOTE: The custom domain doesn’t need to be set here since our page will be automatically published as a subpage of  the domain of the repository deployed under the root / using the repo name “yourGithubName.github.io”.
 If the main app has a custom domain configured, the blog app will be under “customDomain/blog”, in my case “mircoporetti.me/blog”.&lt;/p&gt;
-&lt;p&gt;Edit gatsby-config.js file and add the following line into &quot;module.exports&quot;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;pathPrefix: &quot;/blog&quot;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Edit gatsby-config.js file and add the following line into “module.exports”:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token literal-property property&quot;&gt;pathPrefix&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;/blog&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;If you receive an error about parallel queries, add even:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;flags: {
-    PARALLEL_QUERY_RUNNING: true
-}
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token literal-property property&quot;&gt;flags&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token constant&quot;&gt;PARALLEL_QUERY_RUNNING&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h4 id=&quot;do-it-now&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#do-it-now&quot; aria-label=&quot;do it now permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Do it! Now!&lt;/h4&gt;
 &lt;p&gt;To run the deploy script type:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;npm run deploy
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;That&apos;s it!&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; run deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That’s it!&lt;/p&gt;</content:encoded></item></channel></rss>
