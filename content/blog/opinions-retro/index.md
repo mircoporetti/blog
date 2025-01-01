@@ -86,12 +86,18 @@ This topic could be considered the twin of the previous one, but it focuses less
 
 Here are some examples:
 
-#### Follow things ByTheBook?
+#### Follow things By The Book?
 
 Think about a book you’ve read that focuses on a specific topic, perhaps something related to architecture (but not necessarily).
 You found it amazing, everything made a lot of sense,
 and you couldn’t wait to start applying it all the next day. But soon, you realize the context where you’re trying to apply it
 "by the book" makes you feel like you’re using a sledgehammer to crack a nut.
+
+For example, as a fan of Clean/Hexagonal Architecture, I initially tended to adhere strictly to certain aspects as they were written.
+A simple case, to illustrate, was the mapping between layers, which sometimes felt overkill for specific situations and even led 
+to performance issues. Over time, I realized the importance of finding compromises without breaking the core principles 
+of the architecture. For instance, returning a domain object as an API response, if it was exactly the same as the response model,
+is entirely legitimate from a dependencies perspective.
 
 So, here comes the question: is it always a good idea to apply things exactly as they are described? The very short answer is: no.
 The most important thing is to understand the principles behind the concepts. Sticking rigidly to the exact, perfect, or ideal solution can lead to unnecessary problems.
@@ -142,7 +148,7 @@ However, it can also become a facade used to appear more appealing or to showcas
 
 On the contrary, it’s entirely possible to apply Agile principles without using Scrum (or Kanban, or any other framework).
 
-As a final thought, Scrum is a great framework, but even for it, the idea of [Follow things ByTheBook?](#follow-things-bythebook) remains valid.
+As a final thought, Scrum is a great framework, but even for it, the idea of [Follow things By The Book?](#follow-things-by-the-book) remains valid.
 
 #### Meeting All the Time Doesn’t Generate Effective Communication
 
