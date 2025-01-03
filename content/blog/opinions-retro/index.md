@@ -6,8 +6,8 @@ learned and the (debatable) opinions I've formed over the years."
 ---
 
 A new decade of my journey in Software Engineering is around the corner, and I've been reflecting on the opinions I've formed over the years.
-I recognize that I’ve changed my ideas on some topics, thanks to the experiences I’ve had and the people I’ve had the pleasure of working with,
-while others have remained the same.
+I recognize that I’ve changed my ideas on some topics, thanks to the experiences I’ve had, the people I’ve had the pleasure 
+of working with, and the mistakes we’ve made, while others have remained the same.
 
 As I haven't tracked them over time, I decided to start now so I can look back in the future and see how my thoughts and convictions have evolved. As usual,
 it could be a nice way to collect feedback, which will also be useful for my growth.
