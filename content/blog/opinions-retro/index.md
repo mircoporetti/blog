@@ -244,6 +244,20 @@ with a requirement-first mindset.
 While the percentage output can provide insights, it must be interpreted cautiously to avoid slowing down progress without
 real benefits or pushing teams in the wrong direction.
 
+#### Duplication in tests
+
+It is a common best practice to remove duplication in the codebase. However, this approach may not always provide significant
+value in certain cases. In my experience, this is particularly true for tests. While reducing duplication is generally beneficial,
+being overly focused on it can sometimes do more harm than good.
+
+For example, it may be better to retain some variable duplication if it makes the assertions more meaningful.
+Similarly, avoiding the widespread use of parameterized tests can be advantageous if they make the tests harder to understand and maintain.
+
+Tests should be easy to read and modify as the system evolves. They should also serve as clear documentation of the provided features.
+If the tests do not quickly and effectively communicate the functionalities, they can be improved or simplified. Tests should clearly express their intent and reflect the requirements they are verifying.
+
+Finding a balance between reducing duplication and maintaining readability is crucial in this context.
+
 ## Conclusion
 The main idea was to take a snapshot of some of my thoughts. I'm quite sure that some of them will change or at least 
 will evolve a bit.
