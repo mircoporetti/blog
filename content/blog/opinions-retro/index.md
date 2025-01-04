@@ -36,9 +36,9 @@ Some real world examples assuming you are familiar with them:
   but not only then, by adding an abstraction layer between the database and the application and making the code easier to read,
   generally faster to write for small projects or small parts of the projects, and less tightly coupled to the database being used.
   Unfortunately, ORMs also have some drawbacks, such as performance issues, a lack of control in more complex scenarios,
-  and a learning curve that can be challenging when managing specific situations.
-- **Design patterns**: so useful when solving known problems, but how many times have
-  you been implemented directly without first considering a simpler solution, only to make the code unnecessarily harder to read and maintain?
+  and a learning curve that can be challenging when managing specific situations. 
+  E.g. First simple things I have in mind, when we had to write more complex queries or manage self references in the database, reaching the ORM desired behavior was sometimes a pain.
+- **Design patterns**: so useful when solving known problems, but how many times have  you been implemented directly without first considering a simpler solution, only to make the code unnecessarily harder to read and maintain?
   A nice way to decide whether they’re worth introducing is taking an iterative approach. [TDD](https://tidyfirst.substack.com/p/canon-tdd) can be incredibly helpful in this process.
 
 Do you really need it? Or even better, do you really need it now?
