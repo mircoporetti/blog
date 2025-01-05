@@ -14,51 +14,16 @@ it could be a nice way to collect feedback, which will also be useful for my gro
 
 Here’s a collection of technical and non-technical opinions and lessons learned.
 
-### 1. Trending solutions are not always the best
-
-When we are fresh and enthusiastic about new things, especially when we are new to the field and hungry for knowledge, we tend to think
-that the latest and coolest released tool or approach, is the best solution for every problem we need to solve.
-It's definitely a mistake I made in the past, especially at the start of my career. It can happen also in later stages 
-if we get carried away by enthusiasm and trends.
-
-Some real world examples assuming you are familiar with them:
-
-- **Microservices**: They are often adopted even if not needed. As with most choices, it has its pros and cons: great for splitting the responsibilities of the system,
-  and between different teams (they solve mainly a social problem), scalability (even though it’s not the only way to scale),
-  different technologies for different domains; not great for overhead, complexity, costs, other distributed system challenges.
-  For instance, I clearly remember when we created a new service assuming that in the close future many others use cases related to a more similar domain would have been needed, while the single feature initially could have been implemented in an existing codebase, and at the end it stayed a single usecase app indefinitely.
-- **Mapping libraries**: I saw many apps adopting libraries that automatically map responses to models as a standard, using external tools,
-  like XML mappers, JSON Schemas mappers, and so on. They are very useful for simple mappings, but
-  I’ve found that in some cases, they caused myself and my colleagues to waste more time than we would have spent by implementing the mapping logic ourselves through the code.
-  It's fair to mention that the time wasted for writing new schemas and mappers was reduced as we became more familiar with the library
-  (because of the learning curve).However, it was still more difficult to debug and maintain the code, and sometimes it led to some frustration :dizzy_face:.
-- **ORMs**: they can save a lot of time, especially in the early stages of a project,
-  but not only then, by adding an abstraction layer between the database and the application and making the code easier to read,
-  generally faster to write for small projects or small parts of the projects, and less tightly coupled to the database being used.
-  Unfortunately, ORMs also have some drawbacks, such as performance issues, a lack of control in more complex scenarios,
-  and a learning curve that can be challenging when managing specific situations. 
-  E.g. First simple things I have in mind, when we had to write more complex queries or manage self references in the database, reaching the ORM desired behavior was sometimes a pain.
-- **Design patterns**: so useful when solving known problems, but how many times have  you been implemented directly without first considering a simpler solution, only to make the code unnecessarily harder to read and maintain?
-  A nice way to decide whether they’re worth introducing is taking an iterative approach. [TDD](https://tidyfirst.substack.com/p/canon-tdd) can be incredibly helpful in this process.
-
-Do you really need it? Or even better, do you really need it now?
-Initially, it's definitely possible to achieve many of the benefits of a Microservices architecture by building a Monolith (moo-noo-lith… mooo-nooo-lith…!!! :fearful:),
-just applying good principles to make it very easy to extract a Microservice if really needed later. Similarly, you could map the models manually, implementing your logic
-without going straight with the fancy Design Pattern or avoiding other practices that I didn't mention here, by starting with the simpler solution and switching to another one if only needed afterward.
-The best solution is not determined by its popularity or age, but by the specific context in which it has to be applied and by the problem you have to solve,
-and often design your solution in a way that allows for easy changes later without too much pain if needed.
-In a high percentage of cases you might discover that you don't need to change your solution at all.
-
-### 2. Follow things By The Book?
+### 1. Follow things By The Book?
 
 Think about a book you’ve read that focuses on a specific topic, perhaps something related to architecture (but not necessarily).
 You found it amazing, everything made a lot of sense,
 and you couldn’t wait to start applying it all the next day. But soon, you realize the context where you’re trying to apply it
-"by the book" makes you feel like you’re using a sledgehammer to crack a nut.
+makes you feel like you’re using a sledgehammer to crack a nut.
 
 For example, as a fan of Clean/Hexagonal Architecture, I initially tended to adhere strictly to certain aspects as they were written.
-A simple case, to illustrate, was the mapping between layers, which sometimes felt overkill for specific situations and even led 
-to performance issues. Over time, I realized the importance of finding compromises without breaking the core principles 
+A simple case, to illustrate, was the mapping between layers, which sometimes felt overkill for specific situations and even led
+to performance issues. Over time, I realized the importance of finding compromises without breaking the core principles
 of the architecture. For instance, returning a domain object as an API response, if it was exactly the same as the response model,
 is entirely legitimate from a dependencies perspective.
 
@@ -66,22 +31,57 @@ So, here comes the question: is it always a good idea to apply things exactly as
 The most important thing is to understand the principles behind the concepts. Sticking rigidly to the exact, perfect, or ideal solution can lead to unnecessary problems.
 Instead, it’s better to stay open to variations that better suit your context.
 
-### 3. Everything generic since the beginning
+### 2. Everything generic since the beginning
 
-Over the years, I’ve frequently noticed this tendency: discussions among colleagues, even before starting to work on the first version of 
+Over the years, I’ve frequently noticed this tendency: discussions among colleagues, even before starting to work on the first version of
 a solution or during the initial code reviews, about how to make it more generic because "MAYBE, who knows, in the future…".
 
-But what about addressing the future when the future comes? To be clear, sometimes it’s a good idea to anticipate certain 
-aspects, not only technically but also, and more importantly, from a business perspective, especially when there are strong 
-indications that the future need will arise. 
+But what about addressing the future when the future comes? To be clear, sometimes it’s a good idea to anticipate certain
+aspects, not only technically but also, and more importantly, from a business perspective, especially when there are strong
+indications that the future need will arise.
 However, in many cases, trying to be too generic early on leads to more pain than benefits.
-When the future change finally arrives, the team often discovers that the scenarios differ, sometimes significantly.
+When the future need finally arrives, the team often discovers that the scenarios differ, sometimes significantly.
 And what happens to the carefully crafted generic solution?
 
-To the bin!
+To the bin! 🗑️
 
-One of the buzzwords we often hear is system scalability, but making things generic from the beginning isn’t always the best choice, nor does 
+One of the buzzwords we often hear is system scalability, but making things generic from the beginning isn’t always the best choice, nor does
 it necessarily mean the system will be scalable. A solution or system becomes scalable when it’s designed to accommodate future changes with minimal frustration and cost.
+
+### 3. Trending solutions are not always the best
+
+When we are fresh and enthusiastic about new things, especially when we are new to the field and hungry for knowledge, we tend to think
+that the latest and coolest released tool or approach, is the best solution for every problem we need to solve.
+It's definitely a mistake I made in the past, especially at the start of my career.
+
+Some real world examples, assuming you are already familiar with them:
+
+- **Microservices**: It is easy to adopt them even if not really needed. As with most choices, it has its pros and cons: great for splitting the responsibilities of the system,
+  and between different teams (they solve mainly a social problem), scalability (even though it’s not the only way to scale),
+  using different technologies for different domains; not great for overhead, complexity, costs, other distributed system challenges.
+  For instance, I clearly remember when we created some new service assuming that in the close future many others use cases related to a more similar domain would have been needed,
+  while the single feature initially could have been implemented in an existing codebase maintained by the same team, and at the end it stayed as a single use-case app indefinitely.
+- **Mapping libraries**: I saw many apps adopting by default libraries that automatically map responses to models, using external tools,
+  like XML mappers, JSON Schemas mappers, and so on. They are very useful for simple mappings, but
+  I’ve found that in some cases, they caused myself and my colleagues to waste more time than we would have spent by implementing the mapping logic ourselves through the code.
+  Even after becoming more familiar with the tool, it was still more difficult to debug and maintain the code, and sometimes it led to some frustration :dizzy_face:.
+- **ORMs**: they can save a lot of time, especially in the early stages of a project,
+  but not only then, by adding an abstraction layer between the database and the application and making the code easier to read,
+  generally faster to write for small projects or small parts of them, and less tightly coupled to the database being used.
+  Unfortunately, ORMs also have some drawbacks, such as performance issues, a lack of control in more complex scenarios,
+  and a learning curve that can be challenging when managing specific situations. 
+  E.g. First simple scenarios I have in mind, when we had to write more complex queries or manage self references in the database, reaching the ORM desired behavior was sometimes a pain.
+- **Design patterns**: so useful when solving known problems, but how many times have  you been implemented directly without first considering a simpler solution, only to make the code unnecessarily harder to read and maintain?
+  A nice way to decide whether they’re worth introducing is taking an iterative approach. [TDD](https://tidyfirst.substack.com/p/canon-tdd) can be incredibly helpful in this process.
+
+Do you really need it? Or even better, do you really need it now?
+
+Initially, it's definitely possible to achieve many of the benefits of a Microservices architecture by building a Monolith (moo-noo-lith… mooo-nooo-lith…!!! :fearful:),
+just applying good principles to make it very easy to extract a service if really needed later. Similarly, you could map the models manually, implement your logic
+without going straight with the fancy Design Pattern or avoiding other not mentioned practices, by starting with the simpler solution and switching to the second one if only needed afterward.
+The best solution is not determined by its popularity or age, but by the specific context in which it has to be applied and by the problem you have to solve,
+and generally design your solution in a way that allows for easy changes later without too much pain if needed.
+In a high percentage of cases you might discover that you don't need to change your solution at all.
 
 ### 4. "Agile" ≠ Scrum
 
@@ -90,8 +90,10 @@ Scrum is just one of the frameworks that can facilitate the application of Agile
 
 In fact, adopting Scrum doesn’t guarantee that the values of the [Manifesto for Agile Software Development](https://agilemanifesto.org/) are embraced.
 For example, if a team uses the board as the framework prescribes, organizes work in Sprints with related ceremonies, but fails to communicate directly,
-overuses scheduled meetings, doesn’t interact with customers, prioritizes "tools over individuals," resists changes to predefined plans,
-or, most importantly, doesn’t deliver working software frequently (continuous delivery of valuable software),
+overuses scheduled meetings, doesn’t interact with customers, prioritizes "processes and tools over individuals and interactions" 
+(for example forcing a limited way of communication with a tool, or by discouraging team members from informal discussions 
+or brainstorming unless they create detailed tickets first, or again by imposing a strict way of using the board itself without adapting to team inputs and feedbacks, etc...)
+resists changes to predefined plans, or, most importantly, doesn’t deliver working software frequently (continuous delivery of valuable software),
 then the framework becomes just another tool disconnected from Agile’s original intent.
 
 I mention Agile’s "original idea" deliberately, because the manifesto was created many years ago, and I recognize that the industry has evolved significantly since then, along with its organizational challenges.
@@ -101,7 +103,7 @@ However, it can also become a facade used to appear more appealing or to showcas
 
 On the contrary, it’s entirely possible to apply Agile principles without using Scrum (or Kanban, or any other framework).
 
-As a final thought, Scrum is a great framework, but even for it, the idea of [Follow things By The Book?](#follow-things-by-the-book) remains valid.
+As a final thought, Scrum is a great framework, but even for it, the idea of [Follow things By The Book?](#1-follow-things-by-the-book) remains valid.
 
 ### 5. Meeting All the Time Doesn’t Generate Effective Communication
 
@@ -125,7 +127,7 @@ for example, by holding them at the start or end of the working day.
 
 **Bonus Content:** As a small provocation, and as proof that adapting frameworks and embracing asynchronous communication is both feasible and effective,
 even when challenging well-established practices,
-I recommend reading about Marco Polita’s real-world experience as a team lead. He describes switching from the classic Daily Stand-up meeting to an asynchronous Daily Journal:
+I recommend reading about Marco Polita’s real-world experience. He describes switching from the classic Daily Stand-up meeting to an asynchronous Daily Journal:
 
 - [Why remote Daily Sucks - Try remote Journal](https://www.marcopolita.me/blog/2022/09/02/Daily-Journal.html)
 - [Remote Journal - A year after](https://www.marcopolita.me/blog/2023/02/13/remote-journal_follow-up.html).
@@ -146,36 +148,15 @@ lead to friction or wasted time. Code Reviews are a great forum for these discus
 
 Some things to keep in mind:
 
-- **Other people’s choices are often made the same way yours were:** after many discussions and experimentation -> Be open to understanding their reasoning, and consider changing your idea if it makes sense.
+- **Other people’s choices are often made the same way yours were**, after many discussions and experimentation -> Be open to understand their reasoning, and consider changing your idea if it makes sense.
 - **Even if your perspective is objectively better, it might not always be worth pursuing** -> Standards can be difficult to redefine and reapply across an existing codebase, and the trade-off between effort, cost, and benefit might not justify the change.
 - **Not everyone is open to discussions at all times** -> Communicate your intentions, postpone the discussion to a better time, or step back and let it go if the change isn’t so significant.
 
 Finding the right balance is key. Bring your ideas to the table, gradually advocate for them when they’re meaningful,
 and know when to let go if the return isn’t worth the investment.
 
-### 7. Code Coverage Is Not a Measure of Quality and Shouldn’t Be the Goal
 
-Code coverage is a useful metric. It’s particularly helpful when a team is transitioning to testing in a codebase where tests are absent, or when members are new to testing.
-It also provides a rough indication of whether any tests were forgotten during pipeline runs, helping to anticipate issues before delivering features.
-Finally, it can offer a high-level overview of the codebase’s state.
-
-However, it’s critical to understand that code coverage is a quantity metric, not a quality metric, and it must be treated as such.
-Writing tests solely to increase coverage isn’t meaningful and can lead to the pitfalls mentioned earlier.
-For example, I’ve sometimes seen codebases with high coverage percentages, but upon closer inspection,
-the tests didn’t verify anything particularly useful or relevant to the actual requirements.
-
-In my experience, after writing integration tests for a use case, tools often fail to understand the testing approach and suggest covering unnecessary parts with unit tests.
-And guess what? Red pipeline :red_circle:. So, how do you fix it? You either write useless tests or hack your way around it with annotations or configurations.
-This happens because the tools can’t determine whether the tests are meaningful or understand the context and reasoning behind them.
-(Who knows what AI might do for us in the future? :robot:)
-
-So, what’s the takeaway?
-I believe code coverage can be useful but shouldn’t be the goal. It should instead be the natural consequence of writing tests
-with a requirement-first mindset.
-While the percentage output can provide insights, it must be interpreted cautiously to avoid slowing down progress without
-real benefits or pushing teams in the wrong direction.
-
-### 8. You Don’t Need to Test Every Single Function
+### 7. You Don’t Need to Test Every Single Function
 
 There’s a common misconception about testing: when we talk about it, we often think of unit tests and end up testing every single function.
 This happens when developers lose focus on the real goal of tests: ensuring that business requirements are met and that the code behaves as expected.
@@ -187,7 +168,29 @@ Additionally, this approach can be counterproductive to robustness. Tests writte
 Test-Driven Development (TDD) can help shift this mindset.
 I’ve written more about it in my previous article: [TDD Who?](/tdd/).
 
-Next up: an honorable to Duplication in tests, as a complement of this topic.
+Next up: an honorable mention to Code Coverage.
+
+### 8. Code Coverage Is Not a Measure of Quality and Shouldn’t Be the Goal
+
+Code coverage is a useful metric. It’s particularly helpful when a team is transitioning to testing in a codebase where tests are absent, or when members are new to testing.
+It also provides a rough indication of whether any tests were forgotten during pipeline runs, helping to anticipate issues before delivering features.
+Finally, it can offer a high-level overview of the codebase’s state.
+
+However, it’s critical to understand that code coverage is a quantity metric, not a quality metric, and it must be treated as such.
+Writing tests solely to increase coverage isn’t meaningful and can lead to the pitfalls mentioned earlier in [You Don’t Need to Test Every Single Function](#7-you-dont-need-to-test-every-single-function).
+For example, I’ve sometimes seen codebases with high coverage percentages, but upon closer inspection,
+the tests didn’t verify anything particularly useful or relevant to the actual requirements.
+
+In my experience, for instance, after writing integration tests for a use case, tools often fail to understand the testing approach and suggest covering unnecessary parts with unit tests.
+And guess what? Red pipeline :red_circle:. So, how do you fix it? You either write useless tests or hack your way around it with annotations or configurations for excluding some part of the code.
+This happens because the tools can’t determine whether the tests are meaningful or understand the context and reasoning behind them.
+(Who knows what AI might do for us in the future? :robot:)
+
+So, what’s the takeaway?
+I believe code coverage can be useful but shouldn’t be the goal. It should instead be the natural consequence of writing tests
+with a requirement-first mindset.
+While the percentage output can provide insights, it must be interpreted cautiously to avoid slowing down progress without
+real benefits or pushing teams in the wrong direction.
 
 ### 9. Duplication in tests
 
