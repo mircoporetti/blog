@@ -10,20 +10,21 @@ I recognize that I’ve changed my ideas on some topics, thanks to the experienc
 of working with, and the mistakes we’ve made, while others have remained the same.
 
 As I haven't tracked them over time, I decided to start now so I can look back in the future and see how my thoughts and convictions have evolved. As usual,
-it could be a nice way to collect feedback, which will also be useful for my growth.
+it could be a nice way to collect feedback, which will also be useful for my growth 🤓.
 
 Here’s a collection of technical and non-technical opinions and lessons learned.
 
 ### 1. Skills: Thinking Beyond Technologies and Tools
 
-If I look back and think about the one aspect that helped me make the leap, I believe this is it.
-When my first mentor (a true role model for me) gave me advice for my future, he didn’t tell me to study a specific programming language or framework.
-Instead, he encouraged me to explore different languages and focus on learning how to test effectively, especially through practicing TDD.
+If I look back and think about the one aspect that helped me make the leap 🦘🦘, I believe this is it.
+
+When my first mentor gave me advices for my professional growth, he didn’t tell me to study a specific programming language.
+Instead, he encouraged me to focus on learning how to test effectively, especially through practicing TDD.
 
 He didn’t recommend reading the latest book about the trendy, super-powerful framework of the year.
-Instead, he suggested timeless classics like Clean Code, Clean Architecture, and Test-Driven Development by Example.
+Instead, he suggested sources like Clean Code, Clean Architecture, and Test-Driven Development by Example.
 
-He taught the entire team not to focus too much on technologies or tools but on principles that apply everywhere—skills
+He taught the entire team not to focus too much on technologies or tools but on principles that apply everywhere, skills
 that stay useful no matter the tech stack.
 
 Technologies and tools change frequently, and we can often adapt to a new one after a relatively short learning curve.
@@ -64,43 +65,7 @@ To the bin! 🗑️
 One of the buzzwords we often hear is system scalability, but making things generic from the beginning isn’t always the best choice, nor does
 it necessarily mean the system will be scalable. A solution or system becomes scalable when it’s designed to accommodate future changes with minimal frustration and cost.
 
-### 4. Trending solutions are not always the best
-
-When we are fresh and enthusiastic about new things, especially when we are new to the field and hungry for knowledge, we tend to think
-that the latest and coolest released tool or approach, is the best solution for every problem we need to solve.
-It's definitely a mistake I made in the past, especially at the start of my career.
-
-Some real world examples, assuming you are already familiar with them:
-
-- **Microservices**: It is easy to adopt them even if not really needed. As with most choices, it has its pros and cons: great for splitting the responsibilities of the system,
-  and between different teams (they solve mainly a social problem), scalability (even though it’s not the only way to scale),
-  using different technologies for different domains; not great for overhead, complexity, costs, other distributed system challenges.
-  For instance, I clearly remember when we created some new service assuming that in the close future many others use cases related to a more similar domain would have been needed,
-  while the single feature initially could have been implemented in an existing codebase maintained by the same team, and at the end it stayed as a single use-case app indefinitely.
-- **Mapping libraries**: I saw many apps adopting by default libraries that automatically map responses to models, using external tools,
-  like XML mappers, JSON Schemas mappers, and so on. They are very useful for simple mappings, but
-  I’ve found that in some cases, they caused myself and my colleagues to waste more time than we would have spent by implementing the mapping logic ourselves through the code.
-  Even after becoming more familiar with the tool, it was still more difficult to debug and maintain the code, and sometimes it led to some frustration :dizzy_face:.
-- **ORMs**: they can save a lot of time, especially in the early stages of a project,
-  but not only then, by adding an abstraction layer between the database and the application and making the code easier to read,
-  generally faster to write for small projects or small parts of them, and less tightly coupled to the database being used.
-  Unfortunately, ORMs also have some drawbacks, such as performance issues, a lack of control in more complex scenarios,
-  and a learning curve that can be challenging when managing specific situations. 
-  E.g. First simple scenarios I have in mind, when we had to write more complex queries or manage self references in the database, reaching the ORM desired behavior was sometimes a pain.
-- **Design patterns**: so useful when solving known problems, but how many times have  you been implemented directly without first considering a simpler solution, only to make the code unnecessarily harder to read and maintain?
-  A nice way to decide whether they’re worth introducing is taking an iterative approach. [TDD](https://tidyfirst.substack.com/p/canon-tdd) can be incredibly helpful in this process.
-
-Do you really need it? Or even better, do you really need it now?
-
-Initially, it's definitely possible to achieve many of the benefits of a Microservices architecture by building a Monolith (moo-noo-lith… mooo-nooo-lith…!!! :fearful:),
-just applying good principles to make it very easy to extract a service if really needed later. Similarly, you could map the models manually, implement your logic
-without going straight with the fancy Design Pattern or avoiding other not mentioned practices, by starting with the simpler solution and switching to the second one if only needed afterward.
-
-The best solution is not determined by its popularity or age, but by the specific context in which it has to be applied and by the problem you have to solve,
-and generally design your solution in a way that allows for easy changes later without too much pain if needed.
-In a high percentage of cases you might discover that you don't need to change your solution at all.
-
-### 5. "Agile" ≠ Scrum
+### 4. "Agile" ≠ Scrum
 
 In the modern IT industry, the term "Agile" is often claimed simply by using one of the popular frameworks, such as [Scrum](https://www.scrum.org/).
 Scrum is just one of the frameworks that can facilitate the application of Agile principles, but it’s neither the only one nor sufficient on its own.
@@ -120,9 +85,9 @@ However, it can also become a facade used to appear more appealing or to showcas
 
 On the contrary, it’s entirely possible to apply Agile principles without using Scrum (or Kanban, or any other framework).
 
-As a final thought, Scrum is a great framework, but even for it, the idea of [Follow things By The Book?](#2-follow-things-by-the-book) remains valid.
+As a final thought, Scrum is a great framework, but even for it, the idea of [Follow things By The Book?](#2-follow-things-by-the-book) :book: remains valid.
 
-### 6. Meeting All the Time Doesn’t Generate Effective Communication
+### 5. Meeting All the Time Doesn’t Generate Effective Communication
 
 As mentioned in the previous point, meetings are often overused. Sometimes this happens because the framework requires them
 (and they aren’t questioned or adapted after the team has worked together for a while).
@@ -149,7 +114,7 @@ I recommend reading about Marco Polita’s real-world experience. He describes s
 - [Why remote Daily Sucks - Try remote Journal](https://www.marcopolita.me/blog/2022/09/02/Daily-Journal.html)
 - [Remote Journal - A year after](https://www.marcopolita.me/blog/2023/02/13/remote-journal_follow-up.html).
 
-### 7. Working on Things You Don't Own: Respect the Owner's Choices
+### 6. Working on Things You Don't Own: Respect the Owner's Choices
 
 "Hey friend, I opened a PR on your repo, and I saw your review comment saying to align with your team standard, but honestly,
 I think that’s not the way to go…"
@@ -172,6 +137,41 @@ Some things to keep in mind:
 Finding the right balance is key. Bring your ideas to the table, gradually advocate for them when they’re meaningful,
 and know when to let go if the return isn’t worth the investment.
 
+### 7. Trending solutions are not always the best
+
+When we are fresh and enthusiastic about new things, especially when we are new to the field and hungry for knowledge, we tend to think
+that the latest and coolest released tool or approach, is the best solution for every problem we need to solve.
+It's definitely a mistake I made in the past, especially at the start of my career.
+
+Some real world examples, assuming you are already familiar with them:
+
+- **Microservices**: It is easy to adopt them even if not really needed. As with most choices, it has its pros and cons: great for splitting the responsibilities of the system,
+  and between different teams (they solve mainly a social problem), scalability (even though it’s not the only way to scale),
+  using different technologies for different domains; not great for overhead, complexity, costs, other distributed system challenges.
+  For instance, I clearly remember when we created some new service assuming that in the close future many others use cases related to a more similar domain would have been needed,
+  while the single feature initially could have been implemented in an existing codebase maintained by the same team, and at the end it stayed as a single use-case app indefinitely.
+- **Mapping libraries**: I saw many apps adopting by default libraries that automatically map responses to models, using external tools,
+  like XML mappers, JSON Schemas mappers, and so on. They are very useful for simple mappings, but
+  I’ve found that in some cases, they caused myself and my colleagues to waste more time than we would have spent by implementing the mapping logic ourselves through the code.
+  Even after becoming more familiar with the tool, it was still more difficult to debug and maintain the code, and sometimes it led to some frustration :dizzy_face:.
+- **ORMs**: they can save a lot of time, especially in the early stages of a project,
+  but not only then, by adding an abstraction layer between the database and the application and making the code easier to read,
+  generally faster to write for small projects or small parts of them, and less tightly coupled to the database being used.
+  Unfortunately, ORMs also have some drawbacks, such as performance issues, a lack of control in more complex scenarios,
+  and a learning curve that can be challenging when managing specific situations.
+  E.g. First simple scenarios I have in mind, when we had to write more complex queries or manage self references in the database, reaching the ORM desired behavior was sometimes a pain.
+- **Design patterns**: so useful when solving known problems, but how many times have  you been implemented directly without first considering a simpler solution, only to make the code unnecessarily harder to read and maintain?
+  A nice way to decide whether they’re worth introducing is taking an iterative approach. [TDD](https://tidyfirst.substack.com/p/canon-tdd) can be incredibly helpful in this process.
+
+Do you really need it? Or even better, do you really need it now?
+
+Initially, it's definitely possible to achieve many of the benefits of a Microservices architecture by building a Monolith (moo-noo-lith… mooo-nooo-lith…!!! :fearful:),
+just applying good principles to make it very easy to extract a service if really needed later. Similarly, you could map the models manually, implement your logic
+without going straight with the fancy Design Pattern or avoiding other not mentioned practices, by starting with the simpler solution and switching to the second one if only needed afterward.
+
+The best solution is not determined by its popularity or age, but by the specific context in which it has to be applied and by the problem you have to solve,
+and generally design your solution in a way that allows for easy changes later without too much pain if needed.
+In a high percentage of cases you might discover that you don't need to change your solution at all.
 
 ### 8. You Don’t Need to Test Every Single Function
 
@@ -224,10 +224,12 @@ If the tests do not quickly and effectively communicate the functionalities, the
 Finding a balance between reducing duplication and maintaining readability is crucial in this context.
 
 ## Conclusion
-The main idea was to take a snapshot of some of my thoughts. I'm quite sure that some of them will change or at least 
-will evolve a bit.
-I'm curious to look back at this article in the future and see how my opinions have developed.
+The main idea was to take a snapshot of some of my thoughts. I’m quite sure that some of them will change or at least evolve over time. I’m curious to look back at this article in the future and see how my opinions have developed.
 
-Feel free to contact me if you like to leave your opinion or discuss any of the topics.
+After reading again the list I wrote, I’m even more conscious that many of the aspects that I consider valuable are not purely technical.
+I promise myself to always keep these concepts in mind, to never forget them, and to use them as a guide. At the same time I aim to regularly question and re-evaluate them.
+Moving forward, I will focus on developing and improving not only these principles but also exploring new valuable aspects of Software Engineering to ensure continued growth.
+
+Feel free to contact me if you'd like to leave your opinion or discuss any of the topics.
 
 Cheers!
