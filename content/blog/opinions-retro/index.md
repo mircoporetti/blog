@@ -1,6 +1,6 @@
 ---
 title: "Lessons Learned and Questionable Opinions: A Retrospective on 10 Years of Software Engineering"
-date: "2025-01-04T19:09:12.284Z"
+date: "2025-01-05T19:09:12.284Z"
 description: "As I'm approaching a new decade of my career in Software Engineering, I've been reflecting on the lessons 
 learned and the (debatable) opinions I've formed over the years."
 ---
@@ -14,14 +14,30 @@ it could be a nice way to collect feedback, which will also be useful for my gro
 
 Here’s a collection of technical and non-technical opinions and lessons learned.
 
-### 1. Follow things By The Book?
+### 1. Skills: Thinking Beyond Technologies and Tools
+
+If I look back and think about the one aspect that helped me make the leap, I believe this is it.
+When my first mentor (a true role model for me) gave me advice for my future, he didn’t tell me to study a specific programming language or framework.
+Instead, he encouraged me to explore different languages and focus on learning how to test effectively, especially through practicing TDD.
+
+He didn’t recommend reading the latest book about the trendy, super-powerful framework of the year.
+Instead, he suggested timeless classics like Clean Code, Clean Architecture, and Test-Driven Development by Example.
+
+He taught the entire team not to focus too much on technologies or tools but on principles that apply everywhere—skills
+that stay useful no matter the tech stack.
+
+Technologies and tools change frequently, and we can often adapt to a new one after a relatively short learning curve.
+In contrast, more conceptual and universal principles build a strong foundation that can be reused or, at the very least,
+leave a valuable mark on the way you think, regardless of the technology being used.
+
+### 2. Follow things By The Book?
 
 Think about a book you’ve read that focuses on a specific topic, perhaps something related to architecture (but not necessarily).
 You found it amazing, everything made a lot of sense,
 and you couldn’t wait to start applying it all the next day. But soon, you realize the context where you’re trying to apply it
 makes you feel like you’re using a sledgehammer to crack a nut.
 
-For example, as a fan of Clean/Hexagonal Architecture, I initially tended to adhere strictly to certain aspects as they were written.
+For example, as I mentioned in the previous point Clean Architecture, I initially tended to adhere strictly to certain aspects as they were written.
 A simple case, to illustrate, was the mapping between layers, which sometimes felt overkill for specific situations and even led
 to performance issues. Over time, I realized the importance of finding compromises without breaking the core principles
 of the architecture. For instance, returning a domain object as an API response, if it was exactly the same as the response model,
@@ -31,7 +47,7 @@ So, here comes the question: is it always a good idea to apply things exactly as
 The most important thing is to understand the principles behind the concepts. Sticking rigidly to the exact, perfect, or ideal solution can lead to unnecessary problems.
 Instead, it’s better to stay open to variations that better suit your context.
 
-### 2. Everything generic since the beginning
+### 3. Everything generic since the beginning
 
 Over the years, I’ve frequently noticed this tendency: discussions among colleagues, even before starting to work on the first version of
 a solution or during the initial code reviews, about how to make it more generic because "MAYBE, who knows, in the future…".
@@ -48,7 +64,7 @@ To the bin! 🗑️
 One of the buzzwords we often hear is system scalability, but making things generic from the beginning isn’t always the best choice, nor does
 it necessarily mean the system will be scalable. A solution or system becomes scalable when it’s designed to accommodate future changes with minimal frustration and cost.
 
-### 3. Trending solutions are not always the best
+### 4. Trending solutions are not always the best
 
 When we are fresh and enthusiastic about new things, especially when we are new to the field and hungry for knowledge, we tend to think
 that the latest and coolest released tool or approach, is the best solution for every problem we need to solve.
@@ -79,11 +95,12 @@ Do you really need it? Or even better, do you really need it now?
 Initially, it's definitely possible to achieve many of the benefits of a Microservices architecture by building a Monolith (moo-noo-lith… mooo-nooo-lith…!!! :fearful:),
 just applying good principles to make it very easy to extract a service if really needed later. Similarly, you could map the models manually, implement your logic
 without going straight with the fancy Design Pattern or avoiding other not mentioned practices, by starting with the simpler solution and switching to the second one if only needed afterward.
+
 The best solution is not determined by its popularity or age, but by the specific context in which it has to be applied and by the problem you have to solve,
 and generally design your solution in a way that allows for easy changes later without too much pain if needed.
 In a high percentage of cases you might discover that you don't need to change your solution at all.
 
-### 4. "Agile" ≠ Scrum
+### 5. "Agile" ≠ Scrum
 
 In the modern IT industry, the term "Agile" is often claimed simply by using one of the popular frameworks, such as [Scrum](https://www.scrum.org/).
 Scrum is just one of the frameworks that can facilitate the application of Agile principles, but it’s neither the only one nor sufficient on its own.
@@ -103,9 +120,9 @@ However, it can also become a facade used to appear more appealing or to showcas
 
 On the contrary, it’s entirely possible to apply Agile principles without using Scrum (or Kanban, or any other framework).
 
-As a final thought, Scrum is a great framework, but even for it, the idea of [Follow things By The Book?](#1-follow-things-by-the-book) remains valid.
+As a final thought, Scrum is a great framework, but even for it, the idea of [Follow things By The Book?](#2-follow-things-by-the-book) remains valid.
 
-### 5. Meeting All the Time Doesn’t Generate Effective Communication
+### 6. Meeting All the Time Doesn’t Generate Effective Communication
 
 As mentioned in the previous point, meetings are often overused. Sometimes this happens because the framework requires them
 (and they aren’t questioned or adapted after the team has worked together for a while).
@@ -132,7 +149,7 @@ I recommend reading about Marco Polita’s real-world experience. He describes s
 - [Why remote Daily Sucks - Try remote Journal](https://www.marcopolita.me/blog/2022/09/02/Daily-Journal.html)
 - [Remote Journal - A year after](https://www.marcopolita.me/blog/2023/02/13/remote-journal_follow-up.html).
 
-### 6. Working on Things You Don't Own: Respect the Owner's Choices
+### 7. Working on Things You Don't Own: Respect the Owner's Choices
 
 "Hey friend, I opened a PR on your repo, and I saw your review comment saying to align with your team standard, but honestly,
 I think that’s not the way to go…"
@@ -156,7 +173,7 @@ Finding the right balance is key. Bring your ideas to the table, gradually advoc
 and know when to let go if the return isn’t worth the investment.
 
 
-### 7. You Don’t Need to Test Every Single Function
+### 8. You Don’t Need to Test Every Single Function
 
 There’s a common misconception about testing: when we talk about it, we often think of unit tests and end up testing every single function.
 This happens when developers lose focus on the real goal of tests: ensuring that business requirements are met and that the code behaves as expected.
@@ -170,14 +187,14 @@ I’ve written more about it in my previous article: [TDD Who?](/tdd/).
 
 Next up: an honorable mention to Code Coverage.
 
-### 8. Code Coverage Is Not a Measure of Quality and Shouldn’t Be the Goal
+### 9. Code Coverage Is Not a Measure of Quality and Shouldn’t Be the Goal
 
 Code coverage is a useful metric. It’s particularly helpful when a team is transitioning to testing in a codebase where tests are absent, or when members are new to testing.
 It also provides a rough indication of whether any tests were forgotten during pipeline runs, helping to anticipate issues before delivering features.
 Finally, it can offer a high-level overview of the codebase’s state.
 
 However, it’s critical to understand that code coverage is a quantity metric, not a quality metric, and it must be treated as such.
-Writing tests solely to increase coverage isn’t meaningful and can lead to the pitfalls mentioned earlier in [You Don’t Need to Test Every Single Function](#7-you-dont-need-to-test-every-single-function).
+Writing tests solely to increase coverage isn’t meaningful and can lead to the pitfalls mentioned earlier in [You Don’t Need to Test Every Single Function](#8-you-dont-need-to-test-every-single-function).
 For example, I’ve sometimes seen codebases with high coverage percentages, but upon closer inspection,
 the tests didn’t verify anything particularly useful or relevant to the actual requirements.
 
@@ -192,7 +209,7 @@ with a requirement-first mindset.
 While the percentage output can provide insights, it must be interpreted cautiously to avoid slowing down progress without
 real benefits or pushing teams in the wrong direction.
 
-### 9. Duplication in tests
+### 10. Duplication in tests
 
 It is a common best practice to remove duplication in the codebase. However, this approach may not always provide significant
 value in certain cases. In my experience, this is particularly true for tests. While reducing duplication is generally beneficial,
