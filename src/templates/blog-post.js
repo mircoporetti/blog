@@ -41,6 +41,9 @@ const BlogPostTemplate = ({data, location}) => {
             <Seo
                 title={post.frontmatter.title}
                 description={post.frontmatter.description || post.excerpt}
+                image={post.frontmatter.image || '/profile-pic.jpg'}
+                url={`https://mircoporetti.me/blog/${location.pathname}`}
+
             />
             <article
                 className="blog-post"
